@@ -6,3 +6,9 @@
 
 /* layout */
 @import url(./CSS/layout/header.css);
+/* @import url(./CSS/layout/hero.css); */
+
+/* components */
+@import url(./CSS/components/title.css);
+@import url(./CSS/components/button.css);
+@import url(./CSS/components/text.css);

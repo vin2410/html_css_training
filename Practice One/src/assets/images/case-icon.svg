@@ -1,0 +1,13 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="case-icon">
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z" fill="#4B4B4B"/>
+<g id="Case">
+<path id="Stroke 1" fill-rule="evenodd" clip-rule="evenodd" d="M55.6848 57.978H24.5556C22.0397 57.978 20 55.9298 20 53.4035V30.1505C20 27.6243 22.0397 25.5761 24.5556 25.5761H55.6848C58.2006 25.5761 60.2404 27.6243 60.2404 30.1505V53.4035C60.2404 55.9298 58.2006 57.978 55.6848 57.978V57.978Z" stroke="white" stroke-width="2"/>
+<path id="Stroke 3" d="M20.759 38.4413H59.4812" stroke="white" stroke-width="2"/>
+<path id="Stroke 5" d="M35.5645 38.4413V57.8827H31.009V38.4413" stroke="white" stroke-width="2"/>
+<path id="Stroke 7" d="M44.6756 57.8827V38.4413" stroke="white" stroke-width="2"/>
+<path id="Stroke 9" d="M49.2312 38.4413V57.8827" stroke="white" stroke-width="2"/>
+<path id="Stroke 11" d="M34.4256 24.718C34.4256 24.718 34.1409 19 40.1201 19C45.72 19 45.8145 24.718 45.8145 24.718" stroke="white" stroke-width="2"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="wallet-icon">
+<path id="Oval 1 Copy 3" fill-rule="evenodd" clip-rule="evenodd" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z" fill="#4B4B4B"></path>
+<g id="Wallet">
+<path id="Stroke 1" fill-rule="evenodd" clip-rule="evenodd" d="M56.7062 58.4318H24.0874C22.284 58.4318 20.8228 56.9696 20.8228 55.1662V31.059C20.8228 29.2556 22.284 27.7935 24.0874 27.7935H56.7062C58.5096 27.7935 59.9717 29.2556 59.9717 31.059V55.1662C59.9717 56.9696 58.5096 58.4318 56.7062 58.4318V58.4318Z" stroke="white" stroke-width="2"></path>
+<path id="Stroke 3" fill-rule="evenodd" clip-rule="evenodd" d="M51.4608 48.219H59.9714V38.0062H51.4608C49.5808 38.0062 48.0565 39.5305 48.0565 41.4105V44.8147C48.0565 46.6947 49.5808 48.219 51.4608 48.219V48.219Z" stroke="white" stroke-width="2"></path>
+<path id="Stroke 5" fill-rule="evenodd" clip-rule="evenodd" d="M54.8651 43.1126C54.8651 44.053 54.1034 44.8147 53.1629 44.8147C52.2225 44.8147 51.4608 44.053 51.4608 43.1126C51.4608 42.1722 52.2225 41.4105 53.1629 41.4105C54.1034 41.4105 54.8651 42.1722 54.8651 43.1126Z" fill="white"></path>
+<path id="Stroke 7" d="M37.8438 27.7935L49.7586 19.2828L54.865 27.7935" stroke="white" stroke-width="2"></path>
+<path id="Stroke 9" d="M29.3331 27.7935L37.8438 19.2828L42.9502 24.3892" stroke="white" stroke-width="2"></path>
+</g>
+</g>
+</svg>
