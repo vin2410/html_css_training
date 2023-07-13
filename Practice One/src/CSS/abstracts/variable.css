@@ -1,0 +1,23 @@
+:root{
+    --ff-primary: "Roboto";
+    --ff-secondary: "LucidaGrande";
+    --f-style: normal;
+
+    --fs-huge: 44px;
+    --fs-large: 18px;
+    --fs-medium: 16px;
+    --fs-small: 14px;
+
+    --lh-huge: 48px;
+    --lh-large: 27px;
+    --lh-normal: 24px;
+
+    --fw-primary: 400px;
+    --fw-secondary: 700px;
+
+    --primary-color: #EBCB80;
+    --secondary-color: #4B4B4B;
+    --grey-color: #999999;
+    --darkwhite : #E6E6E6;
+    --white-color: #ffffff;
+}

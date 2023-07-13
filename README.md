@@ -1,1 +1,1 @@
-# html_css_training
+# html_css_practice_one

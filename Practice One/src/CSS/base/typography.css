@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400px;
+    font-style: normal;
+    src: url(/src/assets/fonts/Roboto/Roboto-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Lucida Grande";
+    font-weight: 700px;
+    font-style: normal;
+    src: url(/src/assets/fonts/Lucida-Grande/LucidaGrande.ttf) format("truetype");
+}
