@@ -26,11 +26,11 @@ practice-one
   |-- assets
     |-- fonts
     |-- images
-  |-- css
-    |-- abstract
-    |-- base
-    |-- component
-    |-- layout
+    |-- css
+      |-- abstract
+      |-- base
+      |-- component
+      |-- layout
 |-- index.html
 |-- README.md
 ```
@@ -53,16 +53,10 @@ git checkout practice_one
 - Step 03: Move to folder which just cloned in your computer:
 
 ```bash
-cd html-css-training
+cd html-css-training/practice-one
 ```
 
-- Step 04: Next open folder practice-one
-
-```bash
-cd practice-one
-```
-
-- Step 05: Open index.html or run code in:
+- Step 04: Open index.html or run code in:
 ```
 npx parcel index.html
 ```

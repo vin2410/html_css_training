@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(/practice_one/src/assets/fonts/Roboto/Roboto-Light.ttf) format("truetype");  
+    font-style: normal;
+}
+@font-face {
+    font-family: "LucidaGrande";
+    src: url(/practice_one/src/assets/fonts/lucida-grande/LucidaGrande.ttf) format("truetype");
+    font-style: normal;
+}
