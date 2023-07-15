@@ -1,0 +1,9 @@
+.text_normal{
+    color: var(--secondary-color);
+    font-size: var(--fs-medium);
+    font-family: var(--ff-primary);
+    font-style: normal;
+    margin: 0px;
+    line-height: var(--lh-normal);
+    font-weight: var(--fw-primary);
+}

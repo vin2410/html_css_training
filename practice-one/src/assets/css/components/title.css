@@ -1,0 +1,9 @@
+.title--h2{
+    display: inline-flex;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-huge);
+    line-height: var(--lh-huge);
+    font-weight: var(--fw-primary);
+    margin: 0px;
+}
+
