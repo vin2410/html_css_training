@@ -1,7 +1,4 @@
 .person--infor {
-    display: block;
-}
-.person--infor {
     display: grid;
     grid-template-columns: 80px auto;
     column-gap: 17px;
