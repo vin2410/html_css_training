@@ -18,10 +18,10 @@
     line-height: var(--lh-huge);
     margin: 45px auto 68px 171px;
 }
-.header__nav__a {
+.header__nav__menu {
     margin: 44px 138px 64px auto;
 }
-.header__a {
+.menu-item {
     font-size: var(--fs-medium);
     color: var(--white-color);
     align-content: center;
@@ -30,7 +30,7 @@
     padding-bottom: 77px;
     text-decoration: none;
 }
-.header__a:hover {
+.menu-item:hover {
     color: var(--gold-color);
     text-decoration: underline;
 }
