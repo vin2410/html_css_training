@@ -7,7 +7,7 @@
     font-weight: var(--fw-primary);
 }
 h3,
-span {
+span { 
     font-family: var(--ff-primary);
     font-weight: var(--fw-primary);
     line-height: var(--lh-medium);
