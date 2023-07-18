@@ -1,7 +1,8 @@
-btn{
+.btn{
     font-family: var(--fw-primary);
     font-weight: var(--fw-primary);
     font-size: var(--fs-small);
+    font-style: var(--f-style);
     border-radius: 50px;
     padding-top: 15px;
     padding-bottom: 14px;
