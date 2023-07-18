@@ -1,4 +1,4 @@
-.text_normal{
+.text_normal {
     color: var(--black-color);
     font-size: var(--fs-small);
     font-family: var(--ff-primary);
@@ -6,7 +6,8 @@
     line-height: var(--lh-normal);
     font-weight: var(--fw-primary);
 }
-h3, span{
+h3,
+span {
     font-family: var(--ff-primary);
     font-weight: var(--fw-primary);
     line-height: var(--lh-medium);
