@@ -11,3 +11,32 @@
     text-decoration: none;
     cursor: pointer;
 }
+.btn--light {
+    color: var(--white-color);
+    font-size: var(--fs-small);
+    background-color: var(--black-color);
+    border: 1px solid var(--white-color);
+    width: 180px;
+    transition: 400ms ease all;
+    margin-left: -22px;
+}
+.btn--dark {
+    border: 1px var(--black-color) solid;
+    background-color: transparent;
+    width: 198px;
+}
+.btn:hover {
+    background: var(--gold-color);
+    color: var(--white-color);
+}
+.btn:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+.btn:hover:before,
+.btn:hover:after {
+    width: 100%;
+    transition: 400ms ease all;
+}

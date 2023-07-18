@@ -3,7 +3,7 @@
     font-size: var(--fs-small);
     font-family: var(--ff-primary);
     font-style: normal;
-    line-height: var(--lh-normal);
+    line-height: var(--lh-small);
     font-weight: var(--fw-primary);
 }
 h3,
