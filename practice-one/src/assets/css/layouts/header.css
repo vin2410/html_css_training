@@ -44,7 +44,12 @@
     transition: 400ms ease all;
     margin-left: -22px;
 }
+
 .btn--light:hover {
+    background: var(--darkwhite-color);
+    color: var(--gold-color);
+}
+.btn--light:after {
     background: var(--darkwhite-color);
     color: var(--gold-color);
 }
@@ -54,6 +59,7 @@
     left: 0;
     bottom: 0;
 }
+
 .btn--light:hover:before,
 .btn--light:hover:after {
     width: 100%;
