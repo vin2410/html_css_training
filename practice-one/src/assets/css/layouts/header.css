@@ -9,14 +9,13 @@
     text-decoration: none;
 }
 .header__nav--brand {
+    display: block;
     font-family: var(--ff-primary);
-    font-size: 36px;
+    font-size: var(--fs-normal);
     font-weight: var(--fw-primary);
     color: var(--gold-color);
     text-decoration: none;
-    margin-left: 131px;
-    margin-top: 45px;
-    padding-bottom: 68px;
+    margin: 45px auto 68px 171px;
 }
 .header__nav--item {
     margin: 44px 138px 64px auto;
@@ -26,12 +25,15 @@
     font-weight: var(--fw-primary);
     font-family: var(--ff-primary);
     color: var(--white-color);
-    text-transform: uppercase;    
     align-content: center;
     margin-right: 44px;
     padding-top: 57px;
     padding-bottom: 77px;
     text-decoration: none;
+}
+.header--a:hover {
+    color: var(--gold-color);
+    text-decoration: underline;
 }
 .btn--light {
     color: var(--white-color);
@@ -39,4 +41,21 @@
     background-color: var(--black-color);
     border: 1px solid var(--white-color);
     width: 180px;
+    transition: 400ms ease all;
+    margin-left: -22px;
+}   
+button:hover {
+    background:var(--darkwhite-color);
+    color: var(--gold-color);
+}
+button:after {
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+button:hover:before,
+button:hover:after {
+    width:100%;
+    transition:400ms ease all;
 }
