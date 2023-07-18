@@ -8,6 +8,7 @@
 /* layouts */
 @import url(./layouts/header.css);
 @import url(./layouts/hero.css);
+@import url(./layouts/our_team.css);
 
 /* components */
 @import url(./components/button.css);
