@@ -17,10 +17,10 @@
     text-decoration: none;
     margin: 45px auto 68px 171px;
 }
-.header__nav--item {
+.header__nav__a {
     margin: 44px 138px 64px auto;
 }
-.header--a {
+.header__a {
     font-size: var(--fs-medium);
     font-weight: var(--fw-primary);
     font-family: var(--ff-primary);
@@ -43,19 +43,19 @@
     width: 180px;
     transition: 400ms ease all;
     margin-left: -22px;
-}   
+}
 button:hover {
-    background:var(--darkwhite-color);
+    background: var(--darkwhite-color);
     color: var(--gold-color);
 }
 button:after {
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
 }
 button:hover:before,
 button:hover:after {
-    width:100%;
-    transition:400ms ease all;
+    width: 100%;
+    transition: 400ms ease all;
 }
