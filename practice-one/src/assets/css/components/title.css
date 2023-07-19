@@ -1,9 +1,8 @@
-.title--h2 {
+.title-h2 {
     display: flex;
     font-family: var(--ff-primary);
     font-size: var(--fs-large);
     line-height: var(--lh-huge);
     font-weight: var(--fw-primary);
-    margin: 0px;
     text-align: center;
 }

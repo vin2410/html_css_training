@@ -10,20 +10,19 @@
 }
 .header__nav--brand {
     display: block;
-    font-family: var(--ff-primary);
     font-size: var(--fs-normal);
     font-weight: var(--fw-primary);
+    letter-spacing: 2px;
     color: var(--gold-color);
     text-decoration: none;
+    line-height: var(--lh-huge);
     margin: 45px auto 68px 171px;
 }
-.header__nav__a {
+.header__nav__menu {
     margin: 44px 138px 64px auto;
 }
-.header__a {
+.menu-item {
     font-size: var(--fs-medium);
-    font-weight: var(--fw-primary);
-    font-family: var(--ff-primary);
     color: var(--white-color);
     align-content: center;
     margin-right: 44px;
@@ -31,31 +30,7 @@
     padding-bottom: 77px;
     text-decoration: none;
 }
-.header--a:hover {
+.menu-item:hover {
     color: var(--gold-color);
     text-decoration: underline;
-}
-.btn--light {
-    color: var(--white-color);
-    font-size: var(--fs-small);
-    background-color: var(--black-color);
-    border: 1px solid var(--white-color);
-    width: 180px;
-    transition: 400ms ease all;
-    margin-left: -22px;
-}
-button:hover {
-    background: var(--darkwhite-color);
-    color: var(--gold-color);
-}
-button:after {
-    right: inherit;
-    top: inherit;
-    left: 0;
-    bottom: 0;
-}
-button:hover:before,
-button:hover:after {
-    width: 100%;
-    transition: 400ms ease all;
 }

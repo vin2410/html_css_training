@@ -1,10 +1,10 @@
-:root{
-    --ff-primary: "Roboto";
-    --ff-secondary: "Lucida Grande";
+:root {
+    --ff-primary: 'Roboto';
+    --ff-secondary: 'Lucida Grande';
 
     --f-style: normal;
 
-    --fs-huge:64px;
+    --fs-huge: 64px;
     --fs-large: 44px;
     --fs-normal: 36px;
     --fs-medium: 18px;
@@ -24,5 +24,4 @@
     --grey-color: #999999;
     --darkwhite-color: #e6e6e6;
     --white-color: #ffffff;
-
 }
