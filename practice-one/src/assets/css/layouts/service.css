@@ -1,21 +1,24 @@
-.service {
+.services {
     display: flex;
     flex-direction: column;
     background-color: var(--black-color);
     color: var(--white-color);
 }
-.service__heading {
+
+.services__heading {
     color: var(--white-color);
     align-self: center;
     margin: 68px auto 52px auto;
 }
-.service__card {
+
+.services__card {
     display: flex;
     gap: 0 30px;
     justify-content: center;
     align-items: center;
     margin-bottom: 116px;
 }
+
 .card__heading {
     font-family: var(--ff-secondary);
     font-size: var(--fs-medium);
@@ -26,47 +29,56 @@
     letter-spacing: 1px;
     margin: 40px auto 30px auto;
 }
+
 .heading--gold {
     color: var(--black-color);
 }
-.service__card__price {
+
+.services__card__price {
     display: flex;
     justify-content: center;
 }
-.service__span__dollar {
+
+.services__span__dollar {
     font-size: var(--fs-good);
 }
-.service__heading__value {
+
+.services__heading__value {
     font-size: var(--fs-huge);
     width: 85px;
     height: 48px;
     text-align: center;
     margin-top: 0px;
 }
+
 .card__date {
     margin: 15px auto 23px auto;
 }
+
 .btn__card {
     border: 0px;
     margin: 45px 79px 50px 83px;
-
 }
+
 .card {
     border-radius: 8px;
     justify-content: center;
     text-align: center;
     box-shadow: 0 0 10px 2px var(--black-color);
 }
+
 .card--silver {
     background: linear-gradient(224deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%), var(--black-color);
     color: var(--white-color);
     background-blend-mode: soft-light;
 }
+
 .card--gold {
     background: linear-gradient(225deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), var(--gold-color);
     color: var(--black-color);
     background-blend-mode: soft-light;
 }
+
 .card--platinum {
     background: linear-gradient(223deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%), var(--black-color);
     color: var(--white-color);
