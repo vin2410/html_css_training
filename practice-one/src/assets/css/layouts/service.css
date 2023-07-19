@@ -52,9 +52,24 @@
 }
 .card {
     width: 360px;
-    height: 396px;
+    height: 398px;
     border-radius: 8px;
     justify-content: center;
     text-align: center;
     box-shadow: 0 0 10px 2px var(--black-color);
+}
+.card--silver {
+    background: linear-gradient(224deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%), var(--black-color);
+    color: var(--white-color);
+    background-blend-mode: soft-light;
+}
+.card--gold {
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), var(--gold-color);
+    color: var(--black-color);
+    background-blend-mode: soft-light;
+}
+.card--platinum {
+    background: linear-gradient(223deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%), var(--black-color);
+    color: var(--white-color);
+    background-blend-mode: multiply;
 }
