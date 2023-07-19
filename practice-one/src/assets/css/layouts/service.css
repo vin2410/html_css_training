@@ -10,10 +10,10 @@
     margin: 68px auto 52px auto;
 }
 .service__card {
-    display: grid;
-    grid-template-columns: repeat(3, 25%);
-    column-gap: 30px;
+    display: flex;
+    gap: 0 30px;
     justify-content: center;
+    align-items: center;
     margin-bottom: 116px;
 }
 .card__heading {
