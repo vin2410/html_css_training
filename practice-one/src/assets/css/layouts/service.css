@@ -48,11 +48,10 @@
 }
 .btn__card {
     border: 0px;
-    margin: 45px auto 50px auto;
+    margin: 45px 79px 50px 83px;
+
 }
 .card {
-    width: 360px;
-    height: 398px;
     border-radius: 8px;
     justify-content: center;
     text-align: center;
