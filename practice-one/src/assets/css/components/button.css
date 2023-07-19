@@ -12,6 +12,7 @@
     cursor: pointer;
     transition: 0.4;
 }
+
 .btn--light {
     color: var(--white-color);
     font-size: var(--fs-small);
@@ -19,24 +20,29 @@
     border: 1px solid var(--white-color);
     width: 180px;
 }
+
 .btn--dark {
     border: 1px var(--black-color) solid;
     background-color: transparent;
     width: 198px;
 }
-.btn--gold {
+
+.btn--primary {
     width: 198px;
     background-color: var(--gold-color);
 }
-.btn--black {
+
+.btn--secondary {
     width: 198px;
     background-color: var(--black-color);
     color: var(--white-color);
 }
+
 .btn:hover {
     background: var(--white-color);
     color: var(--black-color);
 }
+
 .btn:after {
     right: inherit;
     top: inherit;
