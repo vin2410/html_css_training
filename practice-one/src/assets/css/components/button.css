@@ -10,6 +10,7 @@
     align-items: center;
     text-decoration: none;
     cursor: pointer;
+    transition: 0.4;
 }
 .btn--light {
     color: var(--white-color);
@@ -17,26 +18,28 @@
     background-color: var(--black-color);
     border: 1px solid var(--white-color);
     width: 180px;
-    transition: 400ms ease all;
-    margin-left: -22px;
 }
 .btn--dark {
     border: 1px var(--black-color) solid;
     background-color: transparent;
     width: 198px;
 }
-.btn:hover {
-    background: var(--gold-color);
+.btn--gold {
+    width: 198px;
+    background-color: var(--gold-color);
+}
+.btn--black {
+    width: 198px;
+    background-color: var(--black-color);
     color: var(--white-color);
+}
+.btn:hover {
+    background: var(--white-color);
+    color: var(--black-color);
 }
 .btn:after {
     right: inherit;
     top: inherit;
     left: 0;
     bottom: 0;
-}
-.btn:hover:before,
-.btn:hover:after {
-    width: 100%;
-    transition: 400ms ease all;
 }
