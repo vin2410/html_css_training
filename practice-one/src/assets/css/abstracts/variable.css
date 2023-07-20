@@ -20,9 +20,11 @@
     --fw-primary: 400px;
     --fw-secondary: 700px;
 
-    --gold-color: #ebcb80;
-    --black-color: #4b4b4b;
-    --grey-color: #999999;
-    --darkwhite-color: #e6e6e6;
-    --white-color: #ffffff;
+    --primary-color: #ebcb80;
+    --secondary-color: #4b4b4b;
+
+    --primary-solid-color: #e6e6e6;
+    --secondary-solid-color: #999999;
+    
+    --primary-text-color: #ffffff;
 }

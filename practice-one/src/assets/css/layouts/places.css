@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--black-color);
+    color: var(--secondary-color);
 }
 
 .places__heading {
-    margin: 67px 568px 20px 578px;
+    margin: 67px auto 20px auto;
 }
 
 .places__list {
