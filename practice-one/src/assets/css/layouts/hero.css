@@ -6,8 +6,8 @@
     justify-content: center;
     background: url(../../images/background-hero.png) no-repeat;
     background-size: cover;
-    background-color: var(--color--secondary);
-    color: var(--color--secondary);
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .hero__page {
