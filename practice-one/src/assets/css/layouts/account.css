@@ -6,10 +6,12 @@
     flex-direction: column;
     align-items: center;
 }
+
 .account__heading {
     color: var(--color-text-primary);
     margin: 72px auto 36px auto;
 }
+
 .signup__heading {
     margin: 28px auto 29px auto;
 }
@@ -21,6 +23,7 @@
     align-items: center;
     margin: 36px auto 48px auto;
 }
+
 .account__input {
     width: 256px;
     height: 36px;
@@ -30,15 +33,18 @@
     opacity: 0.8;
     background-color: var(--color-text-primary);
 }
+
 .account__input::placeholder {
     font-size: var(--fs-tiny);
     color: var(--color-secondary);
     padding: 8px 150px 10px 16px;
 }
+
 .account--exist {
     color: var(--color-primary);
     margin: 2px auto 19px auto;
 }
+
 .signup__btn {
     margin-bottom: 24px;
     border: 0;
