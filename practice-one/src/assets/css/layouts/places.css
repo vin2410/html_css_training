@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--secondary-color);
+    color: var(--color-secondary);
 }
 
 .places__heading {

@@ -1,12 +1,12 @@
 .services {
     display: flex;
     flex-direction: column;
-    background-color: var(--secondary-color);
-    color: var(--primary-text-color);
+    background-color: var(--color-secondary);
+    color: var(--color-text-primary);
 }
 
 .services__heading {
-    color: var(--primary-text-color);
+    color: var(--color-text-primary);
     align-self: center;
     margin: 68px auto 52px auto;
 }
@@ -23,7 +23,7 @@
     font-family: var(--ff-secondary);
     font-size: var(--fs-medium);
     font-weight: var(--fw-secondary);
-    color: var(--gold-color);
+    color: var(--color-primary);
     width: 145px;
     height: 27px;
     letter-spacing: 1px;
@@ -31,7 +31,7 @@
 }
 
 .heading--gold {
-    color: var(--secondary-color);
+    color: var(--color-secondary);
 }
 
 .services__card__price {
@@ -64,23 +64,23 @@
     border-radius: 8px;
     justify-content: center;
     text-align: center;
-    box-shadow: 0 0 10px 2px var(--secondary-color);
+    box-shadow: 0 0 10px 2px var(--color-secondary);
 }
 
 .card--silver {
-    background: linear-gradient(224deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%), var(--secondary-color);
-    color: var(--primary-text-color);
+    background: linear-gradient(224deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%), var(--color-secondary);
+    color: var(--color-text-primary);
     background-blend-mode: soft-light;
 }
 
 .card--gold {
-    background: linear-gradient(225deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), var(--primary-color);
-    color: var(--secondary-color);
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), var(--color-primary);
+    color: var(--color-secondary);
     background-blend-mode: soft-light;
 }
 
 .card--platinum {
-    background: linear-gradient(223deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%), var(--secondary-color);
-    color: var(--primary-text-color);
+    background: linear-gradient(223deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%), var(--color-secondary);
+    color: var(--color-text-primary);
     background-blend-mode: multiply;
 }
