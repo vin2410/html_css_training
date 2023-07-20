@@ -243,12 +243,12 @@
                                 <div class="infor__name__email">
                                     <label for="name" class="contact__label">Name:</label>
                                     <label for="email" class="contact__label">Email:</label>
-                                    <input type="text" class="input-tag contact__input" placeholder="Letha Terry" />
-                                    <input type="email" class="input-tag contact__input" placeholder="letha.terry@ya" />
+                                    <input type="text" id="name" class="input-tag contact__input" placeholder="Letha Terry" />
+                                    <input type="email" id="email" class="input-tag contact__input" placeholder="letha.terry@ya" />
                                 </div>
                                 <div class="infor__mess">
                                     <label for="message" class="contact__label">Message:</label>
-                                    <input type="text" class="input-tag mess__input" />
+                                    <textarea name="message" id="message" cols="55" maxlength="1000" rows="10"></textarea>
                                 </div>
                                 <button class="btn btn--primary contact__btn">SUBMIT</button>
                             </div>
@@ -266,6 +266,19 @@
                 </div>
             </section>
             <!--End contact -->
+
+            <!--Start footer-->
+            <footer class="footer">
+                <div class="footer__contactus ">
+                    <h3>CONTACT US</h3>
+                    <p class="text_normal">
+                        2300 W Arbutus Dr Citrus Springs, FL 34434, USA
+                    </p>
+                </div>
+                <div class="footer__contactus-number"></div>
+            </footer>
+            <!--End footer-->
+
         </main>
         <!--End content-->
     </body>
