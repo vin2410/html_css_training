@@ -1,0 +1,78 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-secondary);
+}
+
+.contact__heading {
+    margin-top: 92px;
+}
+
+.contact__infor__decs {
+    display: grid;
+    grid-template-columns: 263px 536px 263px ;
+    column-gap: 40px;
+    margin-top: 65px;
+}
+
+.infor__location {  
+    display: grid;
+    grid-template-columns: auto 234px;
+    gap: 23px 13px;
+    margin-top: 23px;
+}
+
+.form__email{
+    background: var(--color-text-primary);
+    border: 1px var(--color-solid-primary) solid;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 81px;
+}
+
+.form__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 39px 47px auto 60px;
+}
+
+.infor__name__email {
+    display: grid;
+    grid-template-columns: repeat(2, 204px);
+    gap: 17px 12px;
+}
+
+.contact__input {
+    width: 204px;
+    height: 36px;
+    margin-bottom: 16px;
+}
+
+.infor__mess {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+.mess__input {
+    width: 420px;
+    height: 120px;
+}
+
+.contact__btn {
+    margin: 24px auto 43px auto;
+}
+
+.credits__text {
+    width: 263px;
+    margin-bottom: 50px;
+}
+
+.credits__follow {
+    margin-top: 29px;
+}
+ 
