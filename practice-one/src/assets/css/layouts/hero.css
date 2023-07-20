@@ -7,7 +7,9 @@
     background: url(../../images/background-hero.png) no-repeat;
     background-size: cover;
     background-color: var(--gold-color);
+    color: var(--black-color);
 }
+
 .hero__page {
     display: flex;
     flex-direction: column;
@@ -16,9 +18,11 @@
     padding-bottom: 21px;
     padding: 0px;
 }
+
 .hero__content {
     margin: 21px auto 36px auto;
 }
+
 .form--submit {
     display: flex;
     flex-direction: row;
@@ -33,6 +37,7 @@
     margin-right: 18px;
     background-color: transparent;
 }
+
 .hero__page__input::placeholder {
     font-size: var(--fs-small);
     color: var(--black-color);
@@ -43,6 +48,7 @@
     display: inline-flex;
     align-items: center;
 }
+
 .icon--circle img {
     margin: 59px 60px auto auto;
 }

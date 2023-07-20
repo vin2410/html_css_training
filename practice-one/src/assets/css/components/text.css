@@ -1,13 +1,19 @@
 .text_normal {
-    color: var(--black-color);
     font-size: var(--fs-small);
     font-family: var(--ff-primary);
     font-style: normal;
     line-height: var(--lh-small);
     font-weight: var(--fw-primary);
 }
-h3,
-span { 
+
+h3 {
+    font-size: var(--fs-medium);
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-primary);
+    line-height: var(--lh-large);
+}
+
+span {
     font-family: var(--ff-primary);
     font-weight: var(--fw-primary);
     line-height: var(--lh-medium);
