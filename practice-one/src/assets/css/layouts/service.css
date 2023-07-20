@@ -40,7 +40,7 @@
 }
 
 .services__span__dollar {
-    font-size: var(--fs-good);
+    font-size: var(--fs-normal);
 }
 
 .services__heading__value {
