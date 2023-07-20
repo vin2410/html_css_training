@@ -1,12 +1,12 @@
 .services {
     display: flex;
     flex-direction: column;
-    background-color: var(--black-color);
-    color: var(--white-color);
+    background-color: var(--color-secondary);
+    color: var(--color-text-primary);
 }
 
 .services__heading {
-    color: var(--white-color);
+    color: var(--color-text-primary);
     align-self: center;
     margin: 68px auto 52px auto;
 }
@@ -23,7 +23,7 @@
     font-family: var(--ff-secondary);
     font-size: var(--fs-medium);
     font-weight: var(--fw-secondary);
-    color: var(--gold-color);
+    color: var(--color-primary);
     width: 145px;
     height: 27px;
     letter-spacing: 1px;
@@ -31,7 +31,7 @@
 }
 
 .heading--gold {
-    color: var(--black-color);
+    color: var(--color-secondary);
 }
 
 .services__card__price {
@@ -60,27 +60,3 @@
     margin: 45px 79px 50px 83px;
 }
 
-.card {
-    border-radius: 8px;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 0 0 10px 2px var(--black-color);
-}
-
-.card--silver {
-    background: linear-gradient(224deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%), var(--black-color);
-    color: var(--white-color);
-    background-blend-mode: soft-light;
-}
-
-.card--gold {
-    background: linear-gradient(225deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), var(--gold-color);
-    color: var(--black-color);
-    background-blend-mode: soft-light;
-}
-
-.card--platinum {
-    background: linear-gradient(223deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%), var(--black-color);
-    color: var(--white-color);
-    background-blend-mode: multiply;
-}

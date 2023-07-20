@@ -12,13 +12,13 @@
     row-gap: 74px;
     justify-content: center;
     margin-bottom: 103px;
-    color: var(--black-color);
+    color: var(--color-secondary);
 }
 
 .our__team__heading {
     padding-top: 54px;
     padding-bottom: 53px;
-    color: var(--black-color);
+    color: var(--color-secondary);
     justify-content: center;
 }
 
@@ -38,5 +38,5 @@
 
 .person--infor a :hover {
     border-radius: 50%;
-    box-shadow: 0 0 10px 2px var(--black-color);
+    box-shadow: 0 0 10px 2px var(--color-secondary);
 }

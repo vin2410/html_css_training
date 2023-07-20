@@ -6,8 +6,8 @@
     justify-content: center;
     background: url(../../images/background-hero.png) no-repeat;
     background-size: cover;
-    background-color: var(--gold-color);
-    color: var(--black-color);
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .hero__page {
@@ -31,7 +31,7 @@
 .hero__page__input {
     width: 270px;
     height: 48px;
-    border: 0.5px var(--black-color) solid;
+    border: 0.5px var(--color-secondary) solid;
     border-radius: 4px;
     padding-top: 0px;
     margin-right: 18px;
@@ -40,7 +40,7 @@
 
 .hero__page__input::placeholder {
     font-size: var(--fs-small);
-    color: var(--black-color);
+    color: var(--color-secondary);
     padding: 11px 162px 10px 18px;
 }
 
