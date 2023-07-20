@@ -22,3 +22,10 @@
     color: var(--color-text-primary);
     background-blend-mode: multiply;
 }
+
+.input-tag {
+    border: 0.5px var(--color-solid-secondary) solid ;
+    border-radius: 4px;
+    opacity: 0.8;
+    background: var(--color-text-primary);
+}

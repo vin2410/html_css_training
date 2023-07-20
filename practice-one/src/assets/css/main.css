@@ -12,6 +12,7 @@
 @import url(./layouts/service.css);
 @import url(./layouts/places.css);
 @import url(./layouts/account.css);
+@import url(./layouts/contact.css);
 
 /* components */
 @import url(./components/button.css);
