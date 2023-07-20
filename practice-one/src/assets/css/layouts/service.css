@@ -39,7 +39,7 @@
     justify-content: center;
 }
 
-.services__span__dollar {
+.services__span__currency {
     font-size: var(--fs-normal);
 }
 
