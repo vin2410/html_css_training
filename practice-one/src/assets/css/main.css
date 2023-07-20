@@ -10,6 +10,7 @@
 @import url(./layouts/hero.css);
 @import url(./layouts/our_team.css);
 @import url(./layouts/service.css);
+@import url(./layouts/places.css);
 
 /* components */
 @import url(./components/button.css);

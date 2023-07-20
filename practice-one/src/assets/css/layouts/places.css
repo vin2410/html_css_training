@@ -1,0 +1,24 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--black-color);
+}
+
+.places__heading {
+    margin: 67px 568px 20px 578px;
+}
+
+.places__list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-bottom: 29px;
+}
+
+.places__img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px 24px;
+    margin-bottom: 85px;
+}
