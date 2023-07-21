@@ -16,6 +16,10 @@
     margin-top: 65px;
 }
 
+.information__location img:hover {
+    cursor: pointer;
+}
+
 .information__location {
     display: grid;
     grid-template-columns: auto 234px;
