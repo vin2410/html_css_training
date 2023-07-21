@@ -54,10 +54,7 @@
     width: 204px;
     height: 36px;
     margin-bottom: 16px;
-}
-
-.contact__input::placeholder {
-    padding-left: 11px;
+    text-indent: 11px;
 }
 
 .form__mess {

@@ -3,6 +3,6 @@
     font-family: var(--ff-primary);
     font-size: var(--fs-x-large);
     line-height: var(--lh-huge);
-    font-weight: var(--fw-primary);
+    font-weight: bold;
     text-align: center;
 }
