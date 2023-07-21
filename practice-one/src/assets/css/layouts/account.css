@@ -33,7 +33,7 @@
 .account__input::placeholder {
     font-size: var(--fs-tiny);
     color: var(--color-secondary);
-    padding: 8px 150px 10px 16px;
+    padding-left: 16px;
 }
 
 .account--exist {
