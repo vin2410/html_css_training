@@ -52,6 +52,10 @@
     margin-bottom: 16px;
 }
 
+.contact__input::placeholder {
+    padding-left: 11px;
+}
+
 .infor__mess {
     display: flex;
     flex-direction: column;
