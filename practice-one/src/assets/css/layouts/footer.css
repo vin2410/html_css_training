@@ -1,9 +1,35 @@
 .footer {
-    background-color: var(--color-secondary);
+    max-width: 100%;
+    background: var(--color-secondary) ;
+    background-size: cover;
+    color: var(--color-text-primary);
     display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-right: 54px;
+    
+}
+.footer__contact__information {
+    display: grid;
+    grid-template-columns: 10% 12% 12% 25%;
+    column-gap: 100px;
+    justify-content: center;
+    padding-top: 50px;
 }
 
-.footer__contact {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.footer__contact__number {
+    margin-top: 48px;
+}
+.footer__text {
+    opacity: 0.6;
+}
+hr {
+    margin-bottom: 50px;
+}
+.footer__decs {
+    display: flex; 
+
+}
+.footer__copyright {
+    margin-right: 128px;
 }
