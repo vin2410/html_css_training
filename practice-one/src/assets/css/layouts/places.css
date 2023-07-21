@@ -22,3 +22,12 @@
     gap: 12px 24px;
     margin-bottom: 85px;
 }
+
+.places__name:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.places__img img:hover {
+    transform: scale(1.04) rotate(1deg);
+}
