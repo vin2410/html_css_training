@@ -13,6 +13,7 @@
 @import url(./layouts/places.css);
 @import url(./layouts/account.css);
 @import url(./layouts/contact.css);
+@import url(./layouts/footer.css);
 
 /* components */
 @import url(./components/button.css);

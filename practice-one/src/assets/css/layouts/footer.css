@@ -1,0 +1,9 @@
+.footer {
+    background-color: var(--color-secondary);
+    display: flex;
+}
+
+.footer__contact {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
