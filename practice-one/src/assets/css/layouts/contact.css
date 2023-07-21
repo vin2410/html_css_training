@@ -9,14 +9,14 @@
     margin-top: 92px;
 }
 
-.contact__infor__decs {
+.contact__information__decs {
     display: grid;
     grid-template-columns: 263px 536px 263px ;
     column-gap: 40px;
     margin-top: 65px;
 }
 
-.infor__location {  
+.information__location {  
     display: grid;
     grid-template-columns: auto 234px;
     gap: 23px 13px;
@@ -40,7 +40,7 @@
     margin: 39px 47px auto 60px;
 }
 
-.infor__name__email {
+.form__name__email {
     display: grid;
     grid-template-columns: repeat(2, 204px);
     gap: 17px 12px;
@@ -56,7 +56,7 @@
     padding-left: 11px;
 }
 
-.infor__mess {
+.form__mess {
     display: flex;
     flex-direction: column;
     row-gap: 17px;
