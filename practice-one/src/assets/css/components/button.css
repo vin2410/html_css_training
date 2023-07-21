@@ -51,3 +51,11 @@
     left: 0;
     bottom: 0;
 }
+
+.social__link {
+    transition: 1;
+}
+
+.social__link:hover {
+    transform: translateY(-20px);
+}

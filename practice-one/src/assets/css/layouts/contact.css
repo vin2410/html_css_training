@@ -67,7 +67,14 @@
     margin-bottom: 50px;
 }
 
-.credits__follow {
+.social-icon {
+    width: 152px;
+    height: 72px;
     margin-top: 29px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 30px;
+    color: var(--color-secondary);
 }
+
  
