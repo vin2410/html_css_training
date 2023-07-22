@@ -8,7 +8,7 @@
     </head>
     <body>
         <!--Start header-->
-        <header>
+        <header class="container">
             <div class="header">
                 <div class="header__nav">
                     <div>
@@ -28,7 +28,7 @@
         <!--End header-->
 
         <!--Start content-->
-        <main>
+        <main class="container">
             <!--Start hero-->
             <section class="hero">
                 <div class="hero__page">
@@ -305,20 +305,23 @@
                 </div>
             </section>
             <!--End contact -->
+        </main>
+        <!--End content-->
 
-            <!--Start footer-->
-            <footer class="footer">
+        <!--Start footer-->
+        <footer class="container">
+            <div class="footer">
                 <div class="footer__contact__information">
                     <div class="footer__contact">
-                        <h3>CONTACT US</h3>
+                        <h3 class="footer__heading">CONTACT US</h3>
                         <p class="text_normal footer__text">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
                     </div>
-                    <div class="footer__contact__number">
-                        <p class="text_normal footer__text">+235 793-891-7938</p>
-                        <p class="text_normal footer__text">contact@hofmannui.net</p>
+                    <div class="footer__contact">
+                        <p class="text_normal footer__text text__number">+235 <br> 793-891-7938</p>
+                        <p class="text_normal footer__text text__email">contact@hofmannui.net</p>
                     </div>
                     <div class="footer__follow">
-                        <h3>FOLLOW US</h3>
+                        <h3 class="footer__heading">FOLLOW US</h3>
                         <div class="social-icon">
                             <a href="#" class="social__link">
                                 <img src="./assets/images/pinterest-icon-light.png" alt="Pinterest" />
@@ -332,44 +335,43 @@
                         </div>
                     </div>
                     <div class="footer_about">
-                        <h3>ABOUT US</h3>
+                        <h3 class="footer__heading">ABOUT US</h3>
                         <p class="text_normal footer__text">
                             Hoffman UI Kit was made to help you quickly create beautiful layouts of responsive websites.
                         </p>
                     </div>
                 </div>
-                
-                <hr width="80%" color="#7D7D7D"/>
+
+                <hr />
                 <div class="footer__decs">
                     <div class="footer__copyright">
                         <p class="text_normal">© 2016 Hofmann UI Kit</p>
                     </div>
                     <div class="footer__nav">
                         <a href="#">
-                            HOME
+                            <h3>HOME</h3>
                         </a>
                         <a href="#">
-                            SERVICES
+                            <h3>SERVICES</h3>
                         </a>
                         <a href="#">
-                            TEAM
+                            <h3>TEAM</h3>
                         </a>
                         <a href="#">
-                            PORTFOLIO
+                            <h3>PORTFOLIO</h3>
                         </a>
                         <a href="#">
-                            CONTACT
+                            <h3>CONTACT</h3>
                         </a>
                     </div>
                     <button class="footer__btn">
                         <a href="#">
-                            <img src="./assets/images/go-top-button.svg" alt="Go top button">
+                            <img src="./assets/images/go-top-button.svg" alt="Go top button" />
                         </a>
                     </button>
                 </div>
-            </footer>
-            <!--End footer-->
-        </main>
-        <!--End content-->
+            </div>
+        </footer>
+        <!--End footer-->
     </body>
 </html>
