@@ -1,5 +1,5 @@
 .footer {
-    max-width: 100%;
+    width: 100%;
     background: var(--color-secondary);
     background-size: cover;
     color: var(--color-text-primary);
@@ -33,6 +33,7 @@
 hr {
     width: 80%;
     margin-bottom: 5px;
+    border: 1px solid var(--color-tertiary);
 }
 
 .footer__nav {
@@ -53,4 +54,12 @@ hr {
 
 .footer__copyright {
     margin-right: 128px;
+}
+
+.footer__btn {
+    display: contents;
+}
+
+.footer__btn:hover {
+    transform: translateY(10px);
 }
