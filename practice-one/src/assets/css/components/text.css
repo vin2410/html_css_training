@@ -6,6 +6,14 @@
     font-weight: var(--fw-primary);
 }
 
+h3 {
+    font-size: var(--fs-medium);
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-primary);
+    line-height: var(--lh-large);
+    letter-spacing: 1px;
+}
+
 span {
     font-family: var(--ff-primary);
     font-weight: var(--fw-primary);
