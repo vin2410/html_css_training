@@ -1,5 +1,4 @@
 .header {
-    font-family: var(--ff-primary);
     background-color: var(--color-secondary);
     text-transform: uppercase;
 }
@@ -12,6 +11,7 @@
 
 .header__nav--brand {
     display: block;
+    font-family: var(--ff-primary);
     font-size: var(--fs-large);
     font-weight: var(--fw-primary);
     letter-spacing: 2px;
@@ -22,11 +22,10 @@
 }
 
 .header__nav__menu {
-    margin: 44px 138px 64px auto;
+    display: flex;
 }
 
 .menu-item {
-    font-size: var(--fs-medium);
     color: var(--color-text-primary);
     align-content: center;
     margin: 57px 44px 77px auto;

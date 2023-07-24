@@ -19,13 +19,17 @@
     font-size: var(--fs-small);
     background-color: var(--color-secondary);
     border: 1px solid var(--color-text-primary);
+    display: flex;
+    align-items: center;
     width: 180px;
+    margin: 44px 138px 64px auto;
 }
 
 .button--dark {
     border: 1px var(--color-secondary) solid;
     background-color: transparent;
     width: 198px;
+    color: var(--color-secondary);
 }
 
 .button--primary {
