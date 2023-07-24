@@ -50,3 +50,7 @@
 .icon--circle img {
     margin: 59px 60px auto auto;
 }
+
+.icon--circle:hover {
+    transform: translateY(-10px);
+}
