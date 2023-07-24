@@ -46,7 +46,7 @@
 }
 
 .button:hover {
-    background: var(--color-text-primary);
+    background: var(--color-solid-secondary);
     color: var(--color-secondary);
 }
 
