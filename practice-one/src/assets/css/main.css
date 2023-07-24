@@ -1,6 +1,7 @@
 /* base */
 @import url(./base/reset.css);
 @import url(./base/typography.css);
+@import url(./base/global.css);
 
 /* abstract */
 @import url(./abstracts/variable.css);
@@ -13,6 +14,7 @@
 @import url(./layouts/places.css);
 @import url(./layouts/account.css);
 @import url(./layouts/contact.css);
+@import url(./layouts/footer.css);
 
 /* components */
 @import url(./components/button.css);
