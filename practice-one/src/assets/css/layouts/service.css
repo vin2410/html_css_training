@@ -20,17 +20,20 @@
 }
 
 .card__heading {
-    font-family: var(--ff-secondary);
-    font-size: var(--fs-medium);
     font-weight: var(--fw-secondary);
     color: var(--color-primary);
     width: 145px;
     height: 27px;
     letter-spacing: 1px;
     margin: 40px auto 30px auto;
+    text-transform: uppercase;
 }
 
-.heading--gold {
+.heading--primary {
+    font-family: var(--ff-secondary);
+}
+
+.heading--secondary {
     color: var(--color-secondary);
 }
 
@@ -59,4 +62,3 @@
 .button__card {
     margin: 45px 79px 50px 83px;
 }
-
