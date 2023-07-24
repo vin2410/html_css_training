@@ -13,7 +13,7 @@
     text-indent: 11px;
 }
 
-.contact__information__decs {
+.contact__information__description {
     display: grid;
     grid-template-columns: 263px 536px 263px;
     column-gap: 40px;
@@ -66,7 +66,7 @@
     border: 0.5px var(--color-solid-secondary) solid;
 }
 
-.contact__btn {
+.contact__button {
     margin: 24px auto 43px auto;
 }
 

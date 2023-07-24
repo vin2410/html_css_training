@@ -47,7 +47,7 @@ hr {
     text-decoration: none;
 }
 
-.footer__decs {
+.footer__description {
     display: flex;
     justify-content: space-between;
 }
@@ -57,10 +57,10 @@ hr {
     opacity: 0.6;
 }
 
-.footer__btn {
+.footer__button {
     display: contents;
 }
 
-.footer__btn:hover {
+.footer__button:hover {
     transform: translateY(10px);
 }

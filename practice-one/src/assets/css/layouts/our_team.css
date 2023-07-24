@@ -1,4 +1,4 @@
-.person--infor {
+.person--info {
     display: grid;
     grid-template-columns: 80px auto;
     column-gap: 17px;
@@ -20,21 +20,21 @@
     justify-content: center;
 }
 
-.person--infor h3 {
+.person--info h3 {
     font-size: var(--fs-medium);
     margin: 0px auto 0px auto;
 }
 
-.person--infor span {
+.person--info span {
     font-size: var(--fs-medium);
     margin-bottom: 14px;
 }
 
-.person--infor .text_normal {
+.person--info .text_normal {
     width: 261px;
 }
 
-.person--infor a :hover {
+.person--info a :hover {
     -webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
