@@ -26,6 +26,7 @@
 .places__name:hover {
     color: var(--color-primary);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .places__img img:hover {
