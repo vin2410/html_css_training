@@ -28,9 +28,7 @@
     font-size: var(--fs-medium);
     color: var(--color-text-primary);
     align-content: center;
-    margin-right: 44px;
-    padding-top: 57px;
-    padding-bottom: 77px;
+    margin: 57px 44px 77px auto;
     text-decoration: none;
 }
 
