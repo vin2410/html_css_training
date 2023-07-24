@@ -25,6 +25,7 @@
 .form--submit {
     display: flex;
     flex-direction: row;
+    margin-bottom: 59px;
 }
 
 .hero__page__input {
@@ -43,12 +44,8 @@
 }
 
 .hero__page__icon {
-    display: inline-flex;
-    align-items: center;
-}
-
-.icon--circle img {
-    margin: 59px 60px auto auto;
+    display: flex;
+    gap: 0 60px;
 }
 
 .icon--circle:hover {
