@@ -1,5 +1,7 @@
 .card {
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     box-shadow: 0 0 10px 2px var(--color-secondary);

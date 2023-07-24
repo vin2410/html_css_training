@@ -55,6 +55,7 @@ hr {
 .footer__description {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 39px;
 }
 
 .footer__copyright {
@@ -62,10 +63,10 @@ hr {
     opacity: 0.6;
 }
 
-.footer__button {
-    display: contents;
+.go__top__button {
+    margin-top: -6px;
 }
 
-.footer__button:hover {
-    transform: translateY(10px);
+.go__top__button:hover {
+    transform: translateY(-10px);
 }
