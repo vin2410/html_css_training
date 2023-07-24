@@ -1,6 +1,7 @@
 .header {
     font-family: var(--ff-primary);
     background-color: var(--color-secondary);
+    text-transform: uppercase;
 }
 
 .header__nav {

@@ -45,6 +45,11 @@ hr {
 .footer__nav a {
     color: var(--color-text-primary);
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer__nav a:hover {
+    color: var(--color-primary);
 }
 
 .footer__description {

@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    text-transform: uppercase;
     cursor: pointer;
     transition: 0.4;
 }
@@ -43,13 +44,6 @@
 .button:hover {
     background: var(--color-text-primary);
     color: var(--color-secondary);
-}
-
-.button:after {
-    right: inherit;
-    top: inherit;
-    left: 0;
-    bottom: 0;
 }
 
 .social__link {

@@ -53,6 +53,7 @@
 
 .card__date {
     margin: 15px auto 23px auto;
+    text-transform: uppercase;
 }
 
 .button__card {
