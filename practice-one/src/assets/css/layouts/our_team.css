@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 80px auto;
     column-gap: 17px;
-
 }
 
 .our__team__member {
@@ -16,8 +15,7 @@
 }
 
 .our__team__heading {
-    padding-top: 54px;
-    padding-bottom: 53px;
+    margin: 54px auto 53px auto;
     color: var(--color-secondary);
     justify-content: center;
 }

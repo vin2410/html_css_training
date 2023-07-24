@@ -54,6 +54,7 @@ hr {
 
 .footer__copyright {
     margin-right: 128px;
+    opacity: 0.6;
 }
 
 .footer__btn {
