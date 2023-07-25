@@ -1,7 +1,0 @@
-.title-h2 {
-    display: flex;
-    font-size: var(--fs-x-large);
-    line-height: var(--lh-huge);
-    font-weight: var(--fw-primary);
-    text-align: center;
-}

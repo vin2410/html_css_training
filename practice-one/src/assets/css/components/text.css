@@ -5,6 +5,14 @@
     font-weight: var(--fw-primary);
 }
 
+h2 {
+    display: flex;
+    font-size: var(--fs-x-large);
+    line-height: var(--lh-huge);
+    font-weight: var(--fw-primary);
+    text-align: center;
+}
+
 h3 {
     font-size: var(--fs-medium);
     font-weight: var(--fw-primary);

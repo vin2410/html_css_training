@@ -45,15 +45,15 @@
     border: 0;
 }
 
-.button:hover {
-    background: var(--color-solid-secondary);
-    color: var(--color-secondary);
-}
-
 .social__link {
     transition: 1;
 }
 
 .social__link:hover {
     transform: translateY(-20px);
+}
+
+.button:hover {
+    color: var(--color-text-primary);
+    background-color: var(--color-tertiary);
 }
