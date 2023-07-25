@@ -4,7 +4,7 @@
 @import url(./base/global.css);
 
 /* abstract */
-@import url(./abstracts/variable.css);
+@import url(./abstracts/variables.css);
 
 /* layouts */
 @import url(./layouts/header.css);
@@ -19,6 +19,5 @@
 /* components */
 @import url(./components/button.css);
 @import url(./components/text.css);
-@import url(./components/title.css);
 @import url(./components/card.css);
 

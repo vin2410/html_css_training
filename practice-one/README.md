@@ -7,6 +7,11 @@
 -Apply Flexbox and Grid
 -Use validate tools: W3 Validator
 
+## Timeline:
+
+-Estimation : 2023/07/12 - 2023/07/18 (5 days)
+-Actual : 2023/07/12 - 2023/07/24 (9 days)
+
 ## Design on figma: 
 
 [Figma](https://www.figma.com/file/RJM5LDOKVSdr9F6SVXSs9J/Hofman3?type=design&node-id=0-1&mode=design)
@@ -15,7 +20,6 @@
 
 - Editor: Visual Studio Code
 - Supported browser: Chrome 
-
 
 ## Folder structure
 
