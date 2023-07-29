@@ -48,8 +48,6 @@
 
 .services__heading__value {
     font-size: var(--fs-huge);
-    /* width: 85px;
-    height: 48px; */
     display: flex;
     justify-content: center;
     margin-top: 0px;

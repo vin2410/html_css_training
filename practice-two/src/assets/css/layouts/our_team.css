@@ -21,7 +21,6 @@
 }
 
 .person--info h3 {
-    font-size: var(--fs-medium);
     margin: 0px auto 0px auto;
 }
 
@@ -36,5 +35,5 @@
 
 .person--info a :hover {
     -webkit-transform: scale(1.3);
-	transform: scale(1.3);
+    transform: scale(1.3);
 }

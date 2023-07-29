@@ -7,7 +7,7 @@
 
 h2 {
     display: flex;
-    font-size: var(--fs-x-large);
+    font-size: var(--fs-xx-large);
     line-height: var(--lh-huge);
     font-weight: var(--fw-primary);
     text-align: center;
@@ -23,4 +23,29 @@ h3 {
 span {
     font-weight: var(--fw-primary);
     line-height: var(--lh-medium);
+}
+
+/* Mobile and Table */
+@media (max-width: 1439px) {
+    .text_normal {
+        font-size: var(--fs-x-tiny);
+        line-height: var(--lh-small);
+    }
+
+    h2 {
+        font-size: var(--fs-large);
+        line-height: var(--lh-x-large);
+    }
+
+    h3 {
+        font-size: var(--fs-tiny);
+        line-height: var(--lh-x-small);
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    h2 {
+        font-size: var(--fs-medium-well);
+    }
 }

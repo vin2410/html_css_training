@@ -33,7 +33,7 @@
 }
 
 .account__input::placeholder {
-    font-size: var(--fs-tiny);
+    font-size: var(--fs-x-small);
     color: var(--color-secondary);
 }
 

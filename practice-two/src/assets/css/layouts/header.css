@@ -11,7 +11,7 @@
 
 .header__nav--brand {
     display: block;
-    font-size: var(--fs-large);
+    font-size: var(--fs-x-large);
     font-weight: var(--fw-primary);
     letter-spacing: 2px;
     color: var(--color-primary);
