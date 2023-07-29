@@ -1,5 +1,5 @@
 .account {
-    max-width: 100%;
+    width: 100%;
     background: url(../../images/background-account.png) no-repeat;
     background-size: cover;
     display: flex;

@@ -6,11 +6,11 @@
         <title>HOFMANN</title>
         <link rel="stylesheet" href="./assets/css/main.css" />
     </head>
-    <body class="container">
+    <body>
         <!--Start header-->
         <header>
             <div class="header">
-                <div class="header__nav">
+                <div class="header__nav container">
                     <div>
                         <h1>
                             <a href="#" class="header__nav--brand">Hofmann</a>
@@ -37,7 +37,7 @@
         <main>
             <!--Start hero-->
             <section class="hero">
-                <div class="hero__page">
+                <div class="hero__page container">
                     <h2>Choosing The Right Boutique Hotel For You</h2>
                     <span class="hero__content text_normal"> How To Fly A Private Jet On Your Next Trip </span>
                     <form action="#" class="hero__page form--submit" method="get">
@@ -60,7 +60,7 @@
             <!--End hero-->
 
             <!--Start our_team-->
-            <section class="our__team">
+            <section class="our__team container">
                 <h2 class="our__team__heading">Our Team</h2>
                 <ul class="our__team__member">
                     <li class="our__team person--info">
@@ -134,50 +134,52 @@
 
             <!--Start services-->
             <section class="services">
-                <h2 class="services__heading">Choose Your Plan</h2>
-                <div class="services__card">
-                    <div class="card card--silver service__plan">
-                        <h3 class="card__heading heading--primary">Silver</h3>
-                        <div class="services__card__price">
-                            <span class="services__span__currency">$</span>
-                            <h4 class="services__heading__value">49</h4>
+                <div class="container">
+                    <h2 class="services__heading">Choose Your Plan</h2>
+                    <div class="services__card">
+                        <div class="card card--silver service__plan">
+                            <h3 class="card__heading heading--primary">Silver</h3>
+                            <h4 class="services__heading__value">
+                                <span class="services__span__currency">$</span>
+                                49
+                            </h4>
+                            <h3 class="card__date">Year</h3>
+                            <p class="text_normal">Personal Account</p>
+                            <p class="text_normal">25 GB Discspace</p>
+                            <p class="text_normal">50 Uploads per day</p>
+                            <button type="submit" class="button button__card button--primary">Purchase</button>
                         </div>
-                        <h3 class="card__date">Year</h3>
-                        <p class="text_normal">Personal Account</p>
-                        <p class="text_normal">25 GB Discspace</p>
-                        <p class="text_normal">50 Uploads per day</p>
-                        <button type="submit" class="button button__card button--primary">Purchase</button>
-                    </div>
-                    <div class="card card--gold service__plan">
-                        <h3 class="card__heading heading--secondary">Gold</h3>
-                        <div class="services__card__price">
-                            <span class="services__span__currency heading--gold">$</span>
-                            <h4 class="services__heading__value">99</h4>
+                        <div class="card card--gold service__plan">
+                            <h3 class="card__heading heading--secondary">Gold</h3>
+                            <h4 class="services__heading__value">
+                                <span class="services__span__currency heading--gold">$</span>
+                                99
+                            </h4>
+                            <h3 class="card__date">Year</h3>
+                            <p class="text_normal">Personal Account</p>
+                            <p class="text_normal">50 GB Discspace</p>
+                            <p class="text_normal">500 Uploads per day</p>
+                            <button type="submit" class="button button__card button--secondary">Purchase</button>
                         </div>
-                        <h3 class="card__date">Year</h3>
-                        <p class="text_normal">Personal Account</p>
-                        <p class="text_normal">50 GB Discspace</p>
-                        <p class="text_normal">500 Uploads per day</p>
-                        <button type="submit" class="button button__card button--secondary">Purchase</button>
-                    </div>
-                    <div class="card card--platinum service__plan">
-                        <h3 class="card__heading heading--primary">Platinum</h3>
-                        <div class="services__card__price">
-                            <span class="services__span__currency">$</span>
-                            <h4 class="services__heading__value">299</h4>
+                        <div class="card card--platinum service__plan">
+                            <h3 class="card__heading heading--primary">Platinum</h3>
+                            <h4 class="services__heading__value">
+                                <span class="services__span__currency">$</span>
+                                299
+                            </h4>
+                            <h3 class="card__date">Year</h3>
+                            <p class="text_normal">Personal Account</p>
+                            <p class="text_normal">500 GB Discspace</p>
+                            <p class="text_normal">Unlimited Uploads per day</p>
+                            <button type="submit" class="button button__card button--primary">Purchase</button>
                         </div>
-                        <h3 class="card__date">Year</h3>
-                        <p class="text_normal">Personal Account</p>
-                        <p class="text_normal">500 GB Discspace</p>
-                        <p class="text_normal">Unlimited Uploads per day</p>
-                        <button type="submit" class="button button__card button--primary">Purchase</button>
                     </div>
                 </div>
             </section>
             <!--End services-->
 
             <!--Start places-->
-            <section class="places">
+            <section class="places container">
                 <h2 class="places__heading">Places</h2>
                 <div class="places__list">
                     <h3 class="places__name">San Francisco</h3>
@@ -197,7 +199,7 @@
             <!--End places-->
 
             <!--Start account-->
-            <section class="account">
+            <section class="account container">
                 <h2 class="account__heading">Create An Account</h2>
                 <form action="#" class="card card--silver account__signup__card" method="post">
                     <h3 class="card__heading signup__heading">Sign up</h3>
@@ -211,7 +213,7 @@
             <!--End account-->
 
             <!-- Start contact-->
-            <section class="contact">
+            <section class="contact container">
                 <h2 class="contact__heading">Contact Us</h2>
                 <div class="contact__information">
                     <div class="contact__information__description">
@@ -301,7 +303,7 @@
 
         <!--Start footer-->
         <footer>
-            <div class="footer">
+            <div class="footer container">
                 <div class="footer__contact__information">
                     <div class="footer__contact">
                         <h3 class="footer__heading">Contact us</h3>
