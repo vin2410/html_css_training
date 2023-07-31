@@ -1,23 +1,25 @@
 .header {
-    background-color: var(--color-secondary);
+    position: relative;
+    background: var(--color-secondary);
     text-transform: uppercase;
 }
 
 .header__nav {
+    position: relative;
     display: flex;
+    align-content: center;
     justify-content: space-between;
-    text-decoration: none;
 }
 
 .header__nav--brand {
-    display: block;
+    display: flex;
     font-size: var(--fs-x-large);
     font-weight: var(--fw-primary);
     letter-spacing: 2px;
     color: var(--color-primary);
-    text-decoration: none;
     line-height: var(--lh-huge);
     margin: 45px auto 68px auto;
+    text-decoration: none;
 }
 
 .header__nav__menu {
@@ -27,12 +29,77 @@
 
 .menu-item {
     color: var(--color-text-primary);
-    align-content: center;
-    margin: 57px 44px 77px auto;
+    margin-right: 44px;
     text-decoration: none;
 }
 
 .menu-item:hover {
     color: var(--color-primary);
-    text-decoration: underline;
+}
+
+.hamburger__menu__nav {
+    cursor: pointer;
+    display: none;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+@media (max-width: 1139px) and (min-width: 713px) {
+    .header__nav--brand {
+        font-size: var(--fs-normal);
+        margin: 37px auto 38px auto;
+        letter-spacing: 2.49px;
+    }
+    .menu-item {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 712px) {
+    .header__nav--brand {
+        font-size: var(--fs-normal);
+        margin: 14px 0;
+        float: left;
+    }
+    .hamburger__menu__nav {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 16px;
+        transform: translateY(-50%);
+    }
+
+    .header__nav__menu {
+        position: absolute;
+        top: 30px;
+        right: -150%;
+        background: var(--color-tertiary);
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+        margin: 30px 0;
+        width: 50%;
+    }
+
+    #click:checked ~ .header__nav__menu {
+        right: 0;
+    }
+
+    .header__nav__menu a {
+        width: 100%;
+        margin-right: -100%;
+        margin-top: 50px;
+        display: block;
+        font-size: var(--fs-tiny);
+    }
+
+    #click:checked ~ .header__nav__menu a {
+        margin-left: 0px;
+    }
+    .header__nav__menu a.active,
+    .header__nav__menu a:hover {
+        color: var(--color-primary);
+    }
 }

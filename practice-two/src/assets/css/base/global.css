@@ -4,13 +4,13 @@
     font-family: var(--ff-primary);
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1139px) {
     .container {
         width: 713px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 712px) {
     .container {
         width: 284px;
     }
