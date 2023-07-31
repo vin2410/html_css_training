@@ -47,5 +47,6 @@ span {
 @media (max-width: 712px) {
     h2 {
         font-size: var(--fs-medium-well);
+        line-height: var(--lh-small);
     }
 }

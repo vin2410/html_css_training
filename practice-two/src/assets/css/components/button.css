@@ -11,6 +11,7 @@
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 
 .button--light {
@@ -20,6 +21,7 @@
     border: 1px solid var(--color-text-primary);
     width: 180px;
     margin: 44px auto 64px auto;
+    letter-spacing: 0.8px;
 }
 
 .button--dark {
@@ -58,6 +60,8 @@
         font-size: var(--fs-x-tiny);
         width: 148px;
         letter-spacing: 0.8px;
+        padding-top: 13px;
+        padding-bottom: 13px;
     }
 
     .button--light {
@@ -67,8 +71,9 @@
 
 @media (max-width: 712px) {
     .button {
-        font-size: var(--fs-tiny);
         width: 190px;
+        padding-top: 9px;
+        padding-bottom: 9px;
     }
     .button--light {
         border: 0;
@@ -77,6 +82,7 @@
         padding-top: 0;
     }
     .button--dark {
+        height: 32px;
         color: var(--color-text-secondary);
     }
 }
