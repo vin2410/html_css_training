@@ -1,17 +1,21 @@
-.container {
-    width: 1140px;
-    margin: 0 auto;
+body {
+    width: 100%;
+    overflow-x: hidden;
     font-family: var(--ff-primary);
 }
+.container {
+    width: 89%;
+    margin: 0 auto;
+}
 
-@media (max-width: 1139px) {
+@media (min-width: 713px) {
     .container {
-        width: 713px;
+        width: 93%;
     }
 }
 
-@media (max-width: 712px) {
+@media (min-width: 1140px) {
     .container {
-        width: 284px;
+        width: 79%;
     }
 }

@@ -1,22 +1,22 @@
 .text_normal {
-    font-size: var(--fs-small);
-    font-style: normal;
+    font-size: var(--fs-x-tiny);
     line-height: var(--lh-small);
+    font-style: normal;
     font-weight: var(--fw-primary);
 }
 
 h2 {
     display: flex;
-    font-size: var(--fs-xx-large);
-    line-height: var(--lh-huge);
+    font-size: var(--fs-medium-well);
+    line-height: var(--lh-small);
     font-weight: var(--fw-primary);
     text-align: center;
 }
 
 h3 {
-    font-size: var(--fs-medium);
+    font-size: var(--fs-tiny);
+    line-height: var(--lh-x-small);
     font-weight: var(--fw-primary);
-    line-height: var(--lh-large);
     letter-spacing: 1px;
 }
 
@@ -25,28 +25,28 @@ span {
     line-height: var(--lh-medium);
 }
 
-/* Mobile and Table */
-@media (max-width: 1139px) {
-    .text_normal {
-        font-size: var(--fs-x-tiny);
-        line-height: var(--lh-small);
-    }
-
+/* Table */
+@media (min-width: 712px) {
     h2 {
         font-size: var(--fs-large);
         line-height: var(--lh-x-large);
     }
-
-    h3 {
-        font-size: var(--fs-tiny);
-        line-height: var(--lh-x-small);
-    }
 }
 
-/* Mobile */
-@media (max-width: 712px) {
-    h2 {
-        font-size: var(--fs-medium-well);
+/* Desktop */
+@media (min-width: 1140px) {
+    .text_normal {
+        font-size: var(--fs-small);
         line-height: var(--lh-small);
+    }
+
+    h2 {
+        font-size: var(--fs-xx-large);
+        line-height: var(--lh-huge);
+    }
+
+    h3 {
+        font-size: var(--fs-medium);
+        line-height: var(--lh-large);
     }
 }
