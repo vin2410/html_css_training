@@ -9,40 +9,113 @@
 
 .account__heading {
     color: var(--color-text-primary);
-    margin: 72px auto 36px auto;
 }
 
 .signup__heading {
-    margin: 28px auto 29px auto;
     text-transform: uppercase;
 }
 
+.account__input {
+    height: 32px;
+}
 .account__signup__card {
-    width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 36px auto 48px auto;
-}
-
-.account__input {
-    width: 256px;
-    height: 36px;
-    margin-bottom: 25px;
-    text-indent: 16px;
 }
 
 .account__input::placeholder {
-    font-size: var(--fs-x-small);
     color: var(--color-secondary);
 }
 
 .account--exist {
     color: var(--color-primary);
-    margin: 2px auto 19px auto;
 }
 
 .signup__button {
-    margin-bottom: 24px;
     color: var(--color-secondary);
+}
+
+@media (max-width: 712px) {
+    .account__heading {
+        margin: 44px auto 20px auto;
+    }
+
+    .account__signup__card {
+        margin-bottom: 55px;
+    }
+
+    .signup__heading {
+        margin: 28px auto 29px auto;
+    }
+
+    .account__input {
+        width: 221px;
+        margin: 0 21px 15px 21px;
+        text-indent: var(--fs-x-tiny);
+    }
+    .account--exist {
+        margin: 0 auto 15px auto;
+    }
+    .signup__button {
+        margin-bottom: 36px;
+    }
+}
+
+@media (max-width: 1139px) {
+    .account__heading {
+        margin: 40px auto 26px auto;
+    }
+
+    .account__signup__card {
+        margin-bottom: 41px;
+    }
+
+    .signup__heading {
+        margin: 35px auto 16px auto;
+    }
+
+    .account__input {
+        width: 221px;
+        margin: 0 29px 11px 29px;
+        text-indent: var(--fs-x-tiny);
+    }
+    .account__input::placeholder {
+        font-size: var(--fs-x-tiny);
+    }
+    .account--exist {
+        margin: 11px auto 22px auto;
+    }
+}
+
+@media (min-width: 1140px) {
+    .account__heading {
+        margin: 72px auto 36px auto;
+    }
+
+    .signup__heading {
+        margin: 28px auto 29px auto;
+    }
+    .signup__button {
+        margin-bottom: 24px;
+    }
+
+    .account__signup__card {
+        margin-bottom: 48px;
+    }
+
+    .account__input {
+        width: 256px;
+        height: 36px;
+        margin: 0 52px 25px 52px;
+        text-indent: var(--fs-small);
+    }
+
+    .account__input::placeholder {
+        font-size: var(--fs-x-small);
+    }
+
+    .account--exist {
+        margin: 2px auto 19px auto;
+    }
 }

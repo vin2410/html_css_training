@@ -58,7 +58,7 @@ input[type='checkbox'] {
     }
 
     .header__nav__menu {
-        position: fixed;
+        position: absolute;
         top: 20px;
         right: -150%;
         background: var(--color-tertiary);
