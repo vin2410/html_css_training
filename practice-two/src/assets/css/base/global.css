@@ -8,12 +8,14 @@ body {
     margin: 0 auto;
 }
 
+/* Tablet */
 @media (min-width: 713px) {
     .container {
         width: 93%;
     }
 }
 
+/* Desktop */
 @media (min-width: 1140px) {
     .container {
         width: 79%;
