@@ -11,6 +11,8 @@
 }
 
 .hero__page {
+    margin-top: 236px;
+    margin-bottom: 216px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +27,7 @@
 .form--submit {
     display: flex;
     flex-direction: row;
+    margin-top: 0;
     margin-bottom: 59px;
 }
 
@@ -50,4 +53,75 @@
 
 .icon--circle:hover {
     transform: translateY(-10px);
+}
+
+@media (max-width: 1139px) {
+    .hero {
+        height: 566px;
+    }
+
+    .hero__page {
+        margin: 130px auto 154px auto;
+    }
+    .hero__page h2 {
+        width: 405px;
+        letter-spacing: -0.8px;
+    }
+
+    .hero__page__input {
+        width: 228px;
+        height: 40px;
+        opacity: 0.8px;
+    }
+
+    .hero__page__input::placeholder {
+        font-size: var(--fs-x-tiny);
+    }
+
+    .hero__content {
+        margin: 13px auto 20px auto;
+    }
+
+    .form--submit {
+        margin-top: 0;
+        margin-bottom: 52px;
+    }
+
+    .icon--circle {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media (max-width: 712px) {
+    .hero {
+        height: 460px;
+    }
+    .hero__page {
+        margin: 69px auto 99px auto;
+    }
+    .hero__page h2 {
+        width: 190px;
+    }
+
+    .hero__page__input {
+        width: 190px;
+        height: 32px;
+        margin: 0 0 15px 0;
+    }
+
+    .form--submit {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .hero__page__icon {
+        gap: 0 20px;
+    }
+
+    .icon--circle {
+        width: 50px;
+        height: 50px;
+    }
 }
