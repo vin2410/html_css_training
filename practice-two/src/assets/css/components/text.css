@@ -15,20 +15,20 @@ h2 {
 
 h3 {
     font-size: var(--fs-tiny);
-    line-height: var(--lh-x-small);
+    line-height: var(--lh-small);
     font-weight: var(--fw-primary);
     letter-spacing: 1px;
 }
 
 span {
     font-weight: var(--fw-primary);
-    line-height: var(--lh-medium);
+    line-height: var(--lh-small);
 }
 
 /* Table */
 @media (min-width: 712px) {
     h2 {
-        font-size: var(--fs-large);
+        font-size: var(--fs-large); 
         line-height: var(--lh-x-large);
     }
 }
