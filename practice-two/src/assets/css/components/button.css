@@ -48,6 +48,10 @@
         padding-top: 9px;
         padding-bottom: 9px;
     }
+
+    .button--dark {
+        width: 190px;
+    }
 }
 
 @media (min-width: 713px) {
