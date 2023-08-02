@@ -6,11 +6,7 @@
 
 .our__team__member {
     display: grid;
-    grid-template-columns: 358px 360px 361px;
-    column-gap: 32px;
-    row-gap: 74px;
     justify-content: center;
-    margin-bottom: 103px;
     color: var(--color-secondary);
 }
 
@@ -20,20 +16,110 @@
     justify-content: center;
 }
 
-.person--info h3 {
-    margin: 0px auto 0px auto;
-}
-
 .person--info span {
-    font-size: var(--fs-medium);
-    margin-bottom: 14px;
-}
-
-.person--info .text_normal {
-    width: 261px;
+    font-size: var(--fs-x-tiny);
+    margin: 0 auto 9px auto;
 }
 
 .person--info a :hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
+}
+
+@media (max-width: 712px) {
+    .our__team__member {
+        grid-template-columns: 1fr;
+        row-gap: 36px;
+    }
+
+    .person--info .text_normal {
+        width: 200px;
+    }
+
+    .person--info {
+        grid-template-columns: 48px auto;
+    }
+
+    .our__team__member .person--info:nth-child(1) {
+        grid-area: person--info1;
+    }
+
+    .our__team__member .person--info:nth-child(2) {
+        grid-area: person--info2;
+    }
+
+    .our__team__member .person--info:nth-child(3) {
+        grid-area: person--info3;
+    }
+
+    .our__team__member .person--info:nth-child(4) {
+        grid-area: person--info4;
+    }
+
+    .our__team__member .person--info:nth-child(5) {
+        grid-area: person--info5;
+    }
+
+    .our__team__member .person--info:nth-child(6) {
+        grid-area: person--info6;
+    }
+
+    .our__team__member {
+        display: grid;
+        grid-template-areas:
+            'person--info1'
+            'person--info3'
+            'person--info5'
+            'person--info2'
+            'person--info4'
+            'person--info6';
+    }
+
+    .person--info a img {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 1139px) {
+    .our__team__member {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px 30px;
+        margin-bottom: 49px;
+    }
+
+    .our__team__heading {
+        margin: 40px auto 23px auto;
+    }
+
+    .person--info {
+        grid-template-columns: 62px auto;
+    }
+
+    .person--info a img {
+        width: 62px;
+        height: 62px;
+    }
+
+    .person--info .text_normal {
+        width: 205px;
+    }
+}
+
+@media (min-width: 1140px) {
+    .our__team__member {
+        grid-template-columns: 358px 360px 361px;
+        column-gap: 32px;
+        row-gap: 74px;
+        margin-bottom: 103px;
+    }
+
+    .person--info span {
+        font-size: var(--fs-medium);
+        margin-bottom: 14px;
+    }
+
+    .person--info .text_normal {
+        width: 263px;
+    }
 }
