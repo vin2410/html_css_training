@@ -70,7 +70,12 @@
         'person4'
         'person6';
     justify-content: center;
-    margin: 11px auto 34px auto;
+    margin: 11px auto 71px auto;
+}
+
+.person--info a img {
+    width: 48px;
+    height: 48px;
 }
 
 /* Tablet */
