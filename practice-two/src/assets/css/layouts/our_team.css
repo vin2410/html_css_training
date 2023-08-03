@@ -73,7 +73,6 @@
     margin: 11px auto 34px auto;
 }
 
-
 /* Tablet */
 @media (min-width: 768px) {
     .our__team__member {
@@ -94,6 +93,7 @@
     .person--info {
         grid-template-columns: 62px auto;
         column-gap: 16px;
+        margin-bottom: 0;
     }
 
     .person--info a img {
