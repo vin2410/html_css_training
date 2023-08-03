@@ -1,9 +1,9 @@
+/* Mobile */
 .header {
     background: var(--color-secondary);
     text-transform: uppercase;
 }
 
-/* Mobile */
 .hamburger__menu__nav {
     position: absolute;
     cursor: pointer;

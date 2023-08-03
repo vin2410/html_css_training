@@ -1,5 +1,9 @@
+/* Mobile */
 .person--info {
     display: grid;
+    grid-template-columns: 48px auto;
+    column-gap: 21px;
+    margin-bottom: 37px;
 }
 
 .our__team__member {
@@ -11,6 +15,7 @@
 .our__team__heading {
     color: var(--color-secondary);
     justify-content: center;
+    margin-top: 40px;
 }
 
 .person--info a :hover {
@@ -18,66 +23,54 @@
     transform: scale(1.3);
 }
 
-/* Mobile */
-@media (min-width: 320px) {
-    .our__team__heading {
-        margin-top: 40px;
-    }
+.person--info a img {
+    width: 48px;
+    height: 48px;
+}
 
-    .person--info .text_normal {
-        width: 200px;
-    }
+.person--info .text_normal {
+    width: 200px;
+}
 
-    .person--info {
-        grid-template-columns: 48px auto;
-        column-gap: 21px;
-    }
+.person--info span {
+    font-size: var(--fs-x-tiny);
+    margin: 0 auto 9px auto;
+}
 
-    .person--info span {
-        font-size: var(--fs-x-tiny);
-        margin: 0 auto 9px auto;
-    }
+.our__team__member .person--info:nth-child(1) {
+    grid-area: person1;
+}
 
-    .our__team__member .person--info:nth-child(1) {
-        grid-area: person1;
-    }
+.our__team__member .person--info:nth-child(2) {
+    grid-area: person2;
+}
 
-    .our__team__member .person--info:nth-child(2) {
-        grid-area: person2;
-    }
+.our__team__member .person--info:nth-child(3) {
+    grid-area: person3;
+}
 
-    .our__team__member .person--info:nth-child(3) {
-        grid-area: person3;
-    }
+.our__team__member .person--info:nth-child(4) {
+    grid-area: person4;
+}
 
-    .our__team__member .person--info:nth-child(4) {
-        grid-area: person4;
-    }
+.our__team__member .person--info:nth-child(5) {
+    grid-area: person5;
+}
 
-    .our__team__member .person--info:nth-child(5) {
-        grid-area: person5;
-    }
+.our__team__member .person--info:nth-child(6) {
+    grid-area: person6;
+}
 
-    .our__team__member .person--info:nth-child(6) {
-        grid-area: person6;
-    }
-
-    .our__team__member {
-        grid-template-areas:
-            'person1'
-            'person3'
-            'person5'
-            'person2'
-            'person4'
-            'person6';
-        justify-content: center;
-        margin: 11px auto 71px auto;
-    }
-
-    .person--info a img {
-        width: 48px;
-        height: 48px;
-    }
+.our__team__member {
+    grid-template-areas:
+        'person1'
+        'person3'
+        'person5'
+        'person2'
+        'person4'
+        'person6';
+    justify-content: center;
+    margin: 11px auto 34px auto;
 }
 
 /* Tablet */

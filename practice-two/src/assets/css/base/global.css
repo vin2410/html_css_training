@@ -5,12 +5,10 @@ body {
 }
 
 /* Mobile */
-@media (min-width:320px) {
-    .container {
-        width: 89%;
-        margin: 0 auto;
-    }    
-}
+.container {
+    width: 89%;
+    margin: 0 auto;
+}    
 
 /* Tablet */
 @media (min-width: 768px) {
