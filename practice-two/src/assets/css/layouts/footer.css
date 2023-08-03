@@ -1,3 +1,4 @@
+/* Mobile */
 .footer {
     width: 100%;
     background: var(--color-secondary);
@@ -6,67 +7,196 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 24px;
-    margin-right: 54px;
+    row-gap: 19px;
 }
 
 .footer__heading {
-    margin-bottom: 24px;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 17px;
 }
 
 .footer__contact__information {
     display: grid;
-    grid-template-columns: 10% 12% 12% 25%;
-    column-gap: 100px;
-    justify-content: center;
-    margin: 48px auto 18px auto;
+    grid-template-columns: repeat(2, 132px);
+    column-gap: 25px;
 }
 
-.text__number {
-    margin-top: 48px;
-}
-
-.footer__text {
-    opacity: 0.6;
+.footer_about {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 hr {
-    width: 1140px;
-    margin-bottom: 5px;
+    width: 290px;
+    margin-bottom: -7px;
     border: 1px solid var(--color-tertiary);
 }
 
+.footer__description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .footer__nav {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
     display: flex;
-    column-gap: 42px;
-    margin-right: 250px;
+    text-align: center;
+    column-gap: 14px;
+    margin-left: 13px;
 }
 
 .footer__nav a {
     color: var(--color-text-primary);
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.text__number,
+.text__email {
+    text-decoration: none;
+    color: var(--color-text-primary);
+    vertical-align: bottom;
+}
+
+.footer__text,
+.footer__copyright,
+.go__top__button span,
+.footer_about p {
+    opacity: 0.6;
+}
+
+.footer__copyright {
+    margin-left: 13px;
+}
+
+.go__top__button span {
+    margin-right: 10px;
+}
+
+.go__top__button {
+    display: flex;
+    margin-left: 65px;
+    margin-right: 0;
+}
+
+.go__top__button a img {
+    width: 24px;
+    height: 24px;
+}
+
+.go__top__button:hover {
+    transform: translateY(-10px);
 }
 
 .footer__nav a:hover {
     color: var(--color-primary);
 }
 
-.footer__description {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 39px;
-}
+/* Tablet */
+@media (min-width: 768px) {
+    .footer__contact__information {
+        display: flex;
+        gap: 0 62px;
+    }
 
-.footer__copyright {
-    margin-right: 128px;
-    opacity: 0.6;
-}
+    .footer__heading {
+        margin-top: 20px;
+    }
 
-.go__top__button {
-    margin-top: -6px;
-}
+    .footer__text {
+        display: grid;
+        grid-template-columns: repeat(2, 125px);
+        margin-top: 16px;
+        column-gap: 0;
+    }
 
-.go__top__button:hover {
-    transform: translateY(-10px);
+    .text__address {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .text__number {
+        vertical-align: bottom;
+    }
+
+    .social-icon {
+        margin-top: 21px;
+        margin-bottom: 0;
+    }
+
+    .footer_about {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-left: 30px;
+    }
+
+    .footer_about p {
+        width: 220px;
+    }
+
+    hr {
+        width: 720px;
+    }
+
+    .go__top__button span {
+        display: none;
+    }
+
+    .footer__description {
+        width: 720px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__nav {
+        column-gap: 18px;
+        margin-bottom: 28px;
+    }
+}
+/* Desktop */
+@media (min-width: 1200px) {
+    .footer__contact__information {
+        width: 1140px;
+        column-gap: 127px;
+    }
+    .footer__text {
+        grid-template-columns: 133px 173px;
+        column-gap: 54px;
+    }
+    .footer__heading {
+        margin-top: 50px;
+    }
+    .footer__heading {
+        margin-bottom: 24px;
+    }
+
+    .footer_about p {
+        width: 360px;
+        margin-left: 0;
+    }
+    .footer__text .text__number {
+        align-self: self-end;
+    }
+
+    hr {
+        width: 1140px;
+        margin-bottom: 10px;
+    }
+    .footer__description {
+        width: 1140px;
+    }
+    .footer__nav {
+        margin-left: -100px;
+    }
+
+    .footer__copyright {
+        margin-left: 0px;
+    }
+    .go__top__button a img {
+        width: 36px;
+        height: 36px;
+    }
 }

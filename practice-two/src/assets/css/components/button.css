@@ -33,8 +33,13 @@
     border: 0;
 }
 
-.social__link {
-    transition: 1;
+.social-icon {
+    column-gap: 20px;
+}
+
+.social__link img{
+    width: 20px;
+    height: 20px;
 }
 
 .social__link:hover {
@@ -56,6 +61,11 @@
     }
     .button--dark {
         padding: 13px 41px;
+    }
+
+    .social__link img{
+        width: 30px;
+        height: 30px;
     }
 }
 
