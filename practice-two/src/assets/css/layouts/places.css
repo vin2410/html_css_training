@@ -45,12 +45,9 @@
     border-radius: 48px;
     border: 0.5px var(--color-secondary) solid;
     background: url(../../images/dropdown-icon.svg) 96% / 8% no-repeat;
-    /* For chrome */
-    -webkit-appearance: none;
-    /* For Firefox */
-    -moz-appearance: none;
+    /* Hide arrow default  */
+    appearance: none;
 }
-
 /* For IE10 */
 #places::-ms-expand {
     display: none;
