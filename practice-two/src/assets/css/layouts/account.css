@@ -36,7 +36,8 @@
     color: var(--color-secondary);
 }
 
-@media (max-width: 712px) {
+/* Mobile */
+@media (min-width: 320px) {
     .account__heading {
         margin: 44px auto 20px auto;
     }
@@ -62,7 +63,8 @@
     }
 }
 
-@media (max-width: 1139px) {
+/* Tablet */
+@media (min-width: 768px) {
     .account__heading {
         margin: 40px auto 26px auto;
     }
@@ -88,7 +90,8 @@
     }
 }
 
-@media (min-width: 1140px) {
+/* Desktop */
+@media (min-width: 1200px) {
     .account__heading {
         margin: 72px auto 36px auto;
     }

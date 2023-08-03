@@ -2,10 +2,12 @@
     background-color: var(--color-secondary);
     color: var(--color-text-primary);
 }
+
 .services .container {
     display: flex;
     flex-direction: column;
 }
+
 .services__heading {
     color: var(--color-text-primary);
     justify-content: center;
@@ -37,24 +39,18 @@
     justify-content: center;
 }
 
-.services__span__currency {
-    font-size: var(--fs-normal);
-}
-
 .services__heading__value {
-    height: 48px;
-    font-size: var(--fs-huge);
     display: flex;
     justify-content: center;
     margin-top: 0px;
 }
 
 .card__date {
-    margin: 15px auto 23px auto;
     text-transform: uppercase;
 }
 
-@media (max-width: 712px) {
+/* Mobile */
+@media (min-width: 320px) {
     .services__card {
         flex-direction: column;
         row-gap: 24px;
@@ -63,6 +59,14 @@
 
     .services__heading {
         margin: 52px auto 20px auto;
+    }
+
+    .services__span__currency {
+        font-size: var(--fs-x-tiny);
+    }
+
+    .services__heading__value {
+        font-size: var(--fs-x-large);
     }
 
     .card__heading {
@@ -74,13 +78,15 @@
     }
 }
 
-@media (min-width: 713px) {
+/* Tablet */
+@media (min-width: 768px) {
     .services__heading {
         color: var(--color-text-primary);
         margin: 56px auto 32px auto;
     }
 
     .services__card {
+        flex-direction: row;
         margin-bottom: 80px;
     }
 
@@ -89,17 +95,8 @@
         letter-spacing: 0.6px;
     }
 
-    .services__span__currency {
-        font-size: var(--fs-x-tiny);
-    }
-
-    .services__heading__value {
-        font-size: var(--fs-x-large);
-    }
-
     .card__date {
-        height: 27px;
-        margin: 0 7px;
+        margin: 0 0 7px;
     }
 
     .button__card {
@@ -107,17 +104,34 @@
     }
 }
 
-@media (min-width: 1140px) {
+/* Desktop */
+@media (min-width: 1200px) {
     .services__heading {
+        font-size: var(--fs-xx-large);
         margin: 68px auto 52px auto;
     }
+
     .services__card {
         margin-bottom: 116px;
     }
+
+    .services__span__currency {
+        font-size: var(--fs-normal);
+    }
+
+    .services__heading__value {
+        font-size: var(--fs-huge);
+    }
+
     .card__heading {
         letter-spacing: 1px;
         margin: 40px auto 30px auto;
     }
+
+    .card__date {
+        margin: 15px auto 23px auto;
+    }
+
     .button__card {
         margin: 45px 79px 50px 83px;
     }

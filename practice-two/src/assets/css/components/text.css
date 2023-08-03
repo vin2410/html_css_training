@@ -1,3 +1,4 @@
+/* Mobile */
 .text_normal {
     font-size: var(--fs-x-tiny);
     line-height: var(--lh-small);
@@ -26,7 +27,7 @@ span {
 }
 
 /* Table */
-@media (min-width: 713px) {
+@media (min-width: 768px) {
     h2 {
         font-size: var(--fs-large); 
         line-height: var(--lh-x-large);
@@ -34,7 +35,7 @@ span {
 }
 
 /* Desktop */
-@media (min-width: 1140px) {
+@media (min-width: 1200px) {
     .text_normal {
         font-size: var(--fs-small);
         line-height: var(--lh-small);
