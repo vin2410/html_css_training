@@ -50,6 +50,7 @@
     margin-top: 0px;
     font-size: var(--fs-x-large);
 }
+
 .services__span__currency {
     font-size: var(--fs-x-tiny);
 }
@@ -61,7 +62,6 @@
 .button__card {
     margin: 20px 40px 28px 40px;
 }
-
 /* Tablet */
 @media (min-width: 768px) {
     .services__heading {
