@@ -35,7 +35,7 @@
     display: none;
 }
 
-.header__nav__menu .button:hover {
+.header__nav__menu .button--light:hover {
     background: none;
     color: var(--color-primary);
 }
@@ -96,6 +96,10 @@ input[type='checkbox'] {
         justify-content: baseline;
         column-gap: 30px;
     }
+    .header__nav__menu .button--light:hover {
+        color: var(--color-text-primary);
+        background-color: var(--color-tertiary);
+    }
 }
 
 /* Desktop */
@@ -114,4 +118,6 @@ input[type='checkbox'] {
         justify-content: baseline;
         column-gap: 44px;
     }
+
+    
 }
