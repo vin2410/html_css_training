@@ -95,6 +95,10 @@ hr {
     color: var(--color-primary);
 }
 
+.footer__follow .social-icon {
+    color: var(--color-secondary);
+}
+
 /* Tablet */
 @media (min-width: 768px) {
     .footer__contact__information {
