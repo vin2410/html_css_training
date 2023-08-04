@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../../images/background-hero.png) no-repeat;
+    background: url(../../images/background-hero.jpg) no-repeat;
     background-size: cover;
     background-color: var(--color-primary);
     color: var(--color-secondary);

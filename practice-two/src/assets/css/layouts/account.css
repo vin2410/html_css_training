@@ -1,7 +1,7 @@
 /* Mobile */
 .account {
     width: 100%;
-    background: url(../../images/background-account.png) no-repeat;
+    background: url(../../images/background-account.jpg) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
