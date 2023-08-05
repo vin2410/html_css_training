@@ -10,7 +10,6 @@
     display: grid;
 }
 
-
 .contact__heading {
     margin: 45px auto 30px auto;
 }
@@ -70,9 +69,9 @@
 .contact__information__description {
     grid-template-columns: 250px;
     grid-template-areas:
-    "grid2"
-    "grid1"
-    "grid3";
+        'grid2'
+        'grid1'
+        'grid3';
 }
 
 .form__name__email {
@@ -119,8 +118,7 @@
 @media (min-width: 768px) {
     .contact__information__description {
         grid-template-columns: 224px 161px 161px;
-        grid-template-areas: 
-        "grid2 grid1 grid3";
+        grid-template-areas: 'grid2 grid1 grid3';
         column-gap: 31px;
     }
 
@@ -162,15 +160,13 @@
     .contact__button {
         margin-top: 17px;
     }
-
 }
 
 /* Desktop */
 @media (min-width: 1200px) {
     .contact__information__description {
         grid-template-columns: 263px 536px 263px;
-        grid-template-areas: 
-        "grid1 grid2 grid3";
+        grid-template-areas: 'grid1 grid2 grid3';
         column-gap: 40px;
         margin-top: 65px;
     }

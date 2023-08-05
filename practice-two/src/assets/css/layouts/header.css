@@ -89,7 +89,7 @@ input[type='checkbox'] {
     .header__nav__menu h1 {
         margin: 37px auto 38px 0;
     }
-    
+
     .header__nav__menu {
         display: flex;
         flex-direction: row;
@@ -118,6 +118,4 @@ input[type='checkbox'] {
         justify-content: baseline;
         column-gap: 44px;
     }
-
-    
 }

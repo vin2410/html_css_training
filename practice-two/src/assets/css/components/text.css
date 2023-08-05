@@ -29,7 +29,7 @@ span {
 /* Table */
 @media (min-width: 768px) {
     h2 {
-        font-size: var(--fs-large); 
+        font-size: var(--fs-large);
         line-height: var(--lh-x-large);
     }
 }
