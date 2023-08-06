@@ -1,5 +1,5 @@
 /* Mobile */
-.our-team__member {
+.our-team__list {
     display: grid;
     align-content: center;
     color: var(--color-secondary);
@@ -42,31 +42,31 @@
     margin: 0 auto 9px auto;
 }
 
-.our-team__member .person-info:nth-child(1) {
+.our-team__list .person-info:nth-child(1) {
     grid-area: person1;
 }
 
-.our-team__member .person-info:nth-child(2) {
+.our-team__list .person-info:nth-child(2) {
     grid-area: person2;
 }
 
-.our-team__member .person-info:nth-child(3) {
+.our-team__list .person-info:nth-child(3) {
     grid-area: person3;
 }
 
-.our-team__member .person-info:nth-child(4) {
+.our-team__list .person-info:nth-child(4) {
     grid-area: person4;
 }
 
-.our-team__member .person-info:nth-child(5) {
+.our-team__list .person-info:nth-child(5) {
     grid-area: person5;
 }
 
-.our-team__member .person-info:nth-child(6) {
+.our-team__list .person-info:nth-child(6) {
     grid-area: person6;
 }
 
-.our-team__member {
+.our-team__list {
     grid-template-areas:
         'person1'
         'person3'
@@ -80,7 +80,7 @@
 
 /* Tablet */
 @media (min-width: 768px) {
-    .our-team__member {
+    .our-team__list {
         grid-template-columns: repeat(2, 278px);
         grid-template-areas:
             'person1 person2'
@@ -116,7 +116,7 @@
         margin: 54px auto 53px auto;
     }
 
-    .our-team__member {
+    .our-team__list {
         grid-template-areas:
             'person1 person2 person3'
             'person4 person5 person6';
@@ -126,7 +126,6 @@
     }
 
     .person-info {
-        /* width: 358px; */
         column-gap: 17px;
     }
 

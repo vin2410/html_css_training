@@ -56,7 +56,7 @@
 
 #get-in-touch {
     width: 100%;
-} 
+}
 
 #get-in-touch:nth-child(1) {
     grid-area: grid1;
@@ -101,7 +101,7 @@
 }
 
 #phone-number {
-    display: none;
+    width: 150px;
 }
 
 .text_normal-mobile {
@@ -131,7 +131,7 @@
 /* Tablet */
 @media (min-width: 768px) {
     .contact__information__description {
-        grid-template-columns: 224px 161px 220px;
+        grid-template-columns: 224px 162px 220px;
         grid-template-areas: 'grid2 grid1 grid3';
         column-gap: 31px;
     }
@@ -144,8 +144,13 @@
         margin-bottom: 14px;
     }
 
+    #phone-number span {
+        display: none;
+    }
+
     #phone-number {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .text_normal-mobile {
@@ -156,7 +161,7 @@
         grid-template-columns: 11px 124px;
     }
 
-    .form__email {
+    .form__card {
         margin-right: 31px;
     }
 
@@ -165,10 +170,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px 30px;
-    }
-
-    #get_in_touch {
-        margin-bottom: 105px;
+        margin-bottom: 86px;
     }
 
     .contact__button {
@@ -209,6 +211,7 @@
     .form__card {
         margin: 39px 47px auto 60px;
     }
+
     .form__name__email {
         width: 100%;
         gap: 17px 12px;
