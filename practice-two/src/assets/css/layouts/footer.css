@@ -54,8 +54,8 @@ hr {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.text__number,
-.text__email {
+.footer__text .text__number,
+.footer__text .text__email {
     text-decoration: none;
     color: var(--color-text-primary);
     vertical-align: bottom;
@@ -63,7 +63,7 @@ hr {
 
 .footer__text,
 .footer__copyright,
-.go__top__button span,
+.go-top__button span,
 .footer_about p {
     opacity: 0.8;
 }
@@ -72,22 +72,22 @@ hr {
     margin-left: 13px;
 }
 
-.go__top__button span {
+.go-top__button span {
     margin-right: 10px;
 }
 
-.go__top__button {
+.go-top__button {
     display: flex;
     margin-left: 65px;
     margin-right: 0;
 }
 
-.go__top__button a img {
+.go-top__button a img {
     width: 24px;
     height: 24px;
 }
 
-.go__top__button:hover {
+.go-top__button:hover {
     transform: translateY(-10px);
 }
 
@@ -145,7 +145,7 @@ hr {
         width: 720px;
     }
 
-    .go__top__button span {
+    .go-top__button span {
         display: none;
     }
 
@@ -199,7 +199,7 @@ hr {
     .footer__copyright {
         margin-left: 0px;
     }
-    .go__top__button a img {
+    .go-top__button a img {
         width: 36px;
         height: 36px;
     }

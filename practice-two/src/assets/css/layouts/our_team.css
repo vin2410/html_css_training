@@ -1,72 +1,72 @@
 /* Mobile */
-.our__team__member {
+.our-team__member {
     display: grid;
     align-content: center;
     color: var(--color-secondary);
 }
 
-.our__team__heading {
+.our-team__heading {
     color: var(--color-secondary);
     justify-content: center;
     margin-top: 40px;
 }
 
-.person--info {
+.person-info {
     display: flex;
     column-gap: 21px;
     margin-bottom: 37px;
 }
 
-.person--info a {
+.person-info a {
     width: 48px;
     height: 48px;
 }
 
-.person--info a :hover {
+.person-info a :hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
 
-.person--info a img {
+.person-info a img {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.person--info .text_normal {
+.person-info .text_normal {
     width: 200px;
 }
 
-.person--info span {
+.person-info span {
     font-size: var(--fs-x-tiny);
     margin: 0 auto 9px auto;
 }
 
-.our__team__member .person--info:nth-child(1) {
+.our-team__member .person-info:nth-child(1) {
     grid-area: person1;
 }
 
-.our__team__member .person--info:nth-child(2) {
+.our-team__member .person-info:nth-child(2) {
     grid-area: person2;
 }
 
-.our__team__member .person--info:nth-child(3) {
+.our-team__member .person-info:nth-child(3) {
     grid-area: person3;
 }
 
-.our__team__member .person--info:nth-child(4) {
+.our-team__member .person-info:nth-child(4) {
     grid-area: person4;
 }
 
-.our__team__member .person--info:nth-child(5) {
+.our-team__member .person-info:nth-child(5) {
     grid-area: person5;
 }
 
-.our__team__member .person--info:nth-child(6) {
+.our-team__member .person-info:nth-child(6) {
     grid-area: person6;
 }
 
-.our__team__member {
+.our-team__member {
     grid-template-areas:
         'person1'
         'person3'
@@ -80,7 +80,7 @@
 
 /* Tablet */
 @media (min-width: 768px) {
-    .our__team__member {
+    .our-team__member {
         grid-template-columns: repeat(2, 278px);
         grid-template-areas:
             'person1 person2'
@@ -91,32 +91,32 @@
         margin: 23px auto 49px auto;
     }
 
-    .our__team__heading {
+    .our-team__heading {
         margin-top: 40px;
     }
 
-    .person--info {
+    .person-info {
         column-gap: 16px;
         margin-bottom: 0;
     }
 
-    .person--info a {
+    .person-info a {
         min-width: 62px;
         min-height: 62px;
     }
 
-    .person--info .text_normal {
+    .person-info .text_normal {
         width: 205px;
     }
 }
 
 /* Desktop */
 @media (min-width: 1200px) {
-    .our__team__heading {
+    .our-team__heading {
         margin: 54px auto 53px auto;
     }
 
-    .our__team__member {
+    .our-team__member {
         grid-template-areas:
             'person1 person2 person3'
             'person4 person5 person6';
@@ -125,22 +125,22 @@
         margin-bottom: 103px;
     }
 
-    .person--info {
+    .person-info {
         /* width: 358px; */
         column-gap: 17px;
     }
 
-    .person--info a {
+    .person-info a {
         min-width: 80px;
         min-height: 80px;
     }
 
-    .person--info span {
+    .person-info span {
         font-size: var(--fs-medium);
         margin-bottom: 14px;
     }
 
-    .person--info .text_normal {
+    .person-info .text_normal {
         width: 263px;
     }
 }

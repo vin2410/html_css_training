@@ -5,7 +5,6 @@
     font-style: normal;
     font-weight: var(--fw-primary);
 }
-
 h2 {
     display: flex;
     font-size: var(--fs-medium-well);

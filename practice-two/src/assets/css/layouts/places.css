@@ -32,8 +32,8 @@
 }
 
 .places__img a {
-    min-width: 116px;
-    min-height: 116px;
+    width: 116px;
+    height: 116px;
 }
 
 .places__img a img {
