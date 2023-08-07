@@ -42,10 +42,6 @@
     height: 20px;
 }
 
-.social__link:hover {
-    transform: translateY(-20px);
-}
-
 .button:hover {
     color: var(--color-text-primary);
     background-color: var(--color-tertiary);
@@ -73,15 +69,15 @@
 @media (min-width: 1200px) {
     .button {
         font-size: var(--fs-small);
-        padding: 15px 41px 14px 42px;
+        padding: 15px 50px 14px 51px;
         letter-spacing: 1px;
     }
 
     .button--light {
-        padding: 15px 25px 14px 26px;
+        padding: 15px 30px 14px 31px;
     }
 
     .button--dark {
-        padding: 15px 37px 14px 38px;
+        padding: 15px 50px 14px 51px;
     }
 }

@@ -88,10 +88,6 @@ hr {
     height: 24px;
 }
 
-.go-top__button:hover {
-    transform: translateY(-10px);
-}
-
 .footer__nav a:hover {
     color: var(--color-primary);
 }

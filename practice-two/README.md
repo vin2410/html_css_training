@@ -6,11 +6,14 @@
 -Apply  HTML5 Semantic Tags
 -Apply Flexbox and Grid
 -Use validate tools: W3 Validator
+-Apply Responsive
 
 ## Timeline:
 
--Estimation : 2023/07/12 - 2023/07/18 (5 days)
--Actual : 2023/07/12 - 2023/07/24 (9 days)
+-Estimation : 2023/07/31 - 2023/08/03 (4 days)
+-Actual : 2023/07/31 - 2023/08/03 (4 days)
+-Internal review : 2023/08/04
+-Public review : 2023/08/07
 
 ## Design on figma: 
 
@@ -47,21 +50,20 @@ practice-one
 git clone https://github.com/vin2410/html_css_training.git
 ```
 
-- Step 02: Change to branch /practice-one:
-
+- Step 02: Change to branch /practice-two:
 ```bash
 git checkout develop
-git checkout practice_one
+git checkout practice_two
 ```
 
 - Step 03: Move to folder which just cloned in your computer:
 
 ```bash
-cd html-css-training/practice-one
+cd html-css-training/practice-two
 ```
 
 - Step 04: Open index.html or run code in:
 
 ```bash
-npx parcel index.html
+npm start
 ```
