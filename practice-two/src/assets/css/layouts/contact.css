@@ -98,7 +98,8 @@
     resize: none;
 }
 
-#phone-number .text__number {
+#phone-number .text__number, 
+.information__location .text__email {
     text-decoration: none;
     color: var(--color-secondary);
 }
