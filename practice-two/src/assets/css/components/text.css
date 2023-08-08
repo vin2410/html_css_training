@@ -1,16 +1,22 @@
 /* Mobile */
-.text_normal {
+.text {
     font-size: var(--fs-x-tiny);
     line-height: var(--lh-small);
     font-style: normal;
     font-weight: var(--fw-primary);
 }
+
+.text-number,
+.text-email,
+.text-addresse {
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
 h2 {
-    display: flex;
     font-size: var(--fs-medium-well);
     line-height: var(--lh-small);
     font-weight: var(--fw-primary);
-    text-align: center;
 }
 
 h3 {
@@ -20,10 +26,7 @@ h3 {
     letter-spacing: 1px;
 }
 
-span {
-    font-weight: var(--fw-primary);
-    line-height: var(--lh-small);
-}
+
 
 /* Table */
 @media (min-width: 768px) {
@@ -35,7 +38,7 @@ span {
 
 /* Desktop */
 @media (min-width: 1200px) {
-    .text_normal {
+    .text {
         font-size: var(--fs-small);
         line-height: var(--lh-small);
     }

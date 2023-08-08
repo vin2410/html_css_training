@@ -13,34 +13,34 @@
     margin: 44px auto 20px auto;
 }
 
-.signup__heading {
+.account-signup__heading {
     text-transform: uppercase;
     margin: 28px auto 29px auto;
 }
 
-.account__input {
+.account-signup__input {
     height: 32px;
     width: 221px;
     margin: 0 21px 15px 21px;
     text-indent: var(--fs-x-tiny);
 }
-.account__signup__card {
+.account-signup {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 55px;
 }
 
-.account__input::placeholder {
+.account-signup__input::placeholder {
     color: var(--color-secondary);
 }
 
-.account--exist {
+.account-signup--exist {
     color: var(--color-primary);
     margin: 0 auto 15px auto;
 }
 
-.signup__button {
+.button-signup {
     color: var(--color-secondary);
     margin-bottom: 36px;
 }
@@ -59,49 +59,49 @@
         margin: 35px auto 16px auto;
     }
 
-    .account__input {
+    .account-signup__input {
         width: 221px;
         margin: 0 29px 11px 29px;
         text-indent: var(--fs-x-tiny);
     }
-    .account__input::placeholder {
+    .account-signup__input::placeholder {
         font-size: var(--fs-x-tiny);
     }
-    .account--exist {
+    .account-signup--exist {
         margin: 11px auto 22px auto;
     }
 }
 
 /* Desktop */
 @media (min-width: 1200px) {
-    .account__heading {
+    .account-signup__heading {
         margin: 72px auto 36px auto;
     }
 
     .signup__heading {
         margin: 28px auto 29px auto;
     }
-    .signup__button {
+    .button-signup {
         margin-bottom: 24px;
         padding: 15px 60px;
     }
 
-    .account__signup__card {
+    .account-signup__card {
         margin-bottom: 48px;
     }
 
-    .account__input {
+    .account-signup__input {
         width: 256px;
         height: 36px;
         margin: 0 52px 25px 52px;
         text-indent: var(--fs-small);
     }
 
-    .account__input::placeholder {
+    .account-signup__input::placeholder {
         font-size: var(--fs-x-small);
     }
 
-    .account--exist {
+    .account-signup--exist {
         margin: 2px auto 19px auto;
     }
 }

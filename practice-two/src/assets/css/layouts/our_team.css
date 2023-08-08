@@ -1,20 +1,18 @@
 /* Mobile */
 .our-team__list {
     display: grid;
-    align-content: center;
     color: var(--color-secondary);
 }
 
 .our-team__heading {
     color: var(--color-secondary);
-    justify-content: center;
+    text-align: center;
     margin-top: 40px;
 }
 
 .person-info {
     display: flex;
-    column-gap: 21px;
-    margin-bottom: 37px;
+    gap: 0 21px;
 }
 
 .person-info a {
@@ -33,13 +31,10 @@
     height: 100%;
 }
 
-.person-info .text_normal {
+.person-info .text {
     width: 200px;
     margin-top: 9px;
-}
-
-.person-info span {
-    font-size: var(--fs-x-tiny);
+    line-height: var(--lh-x-small);
     margin: 0 auto 9px auto;
 }
 
@@ -76,6 +71,7 @@
         'person4'
         'person6';
     justify-content: center;
+    row-gap: 37px;
     margin: 11px auto 71px auto;
 }
 
@@ -106,7 +102,7 @@
         min-height: 62px;
     }
 
-    .person-info .text_normal {
+    .person-info .text {
         width: 205px;
     }
 }
@@ -135,12 +131,10 @@
         min-height: 80px;
     }
 
-    .person-info span {
+    .person-info .text {
         font-size: var(--fs-medium);
         margin-bottom: 14px;
-    }
-
-    .person-info .text_normal {
+        line-height: var(--lh-small);
         width: 263px;
     }
 }

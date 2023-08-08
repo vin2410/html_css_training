@@ -12,29 +12,27 @@
     <body>
         <!--Start header-->
         <header>
-            <div class="header">
-                <div class="container header__nav">
-                    <input type="checkbox" id="click" />
-                    <label for="click" class="hamburger__menu__nav">
-                        <img id="open" src="assets/images/open-menu.svg" alt="Open Menu " />
-                        <img id="close" src="assets/images/close-menu.svg" alt="Close Menu" />
-                    </label>
-                    <nav class="header__nav__menu">
-                        <h1>
-                            <a href="#" class="header__nav__brand">Hofmann</a>
-                        </h1>
-                        <a href="#" class="header_nav_menu menu-item">
-                            <h3>Mission</h3>
-                        </a>
-                        <a href="#" class="header_nav_menu menu-item">
-                            <h3>Services</h3>
-                        </a>
-                        <a href="#" class="header_nav_menu menu-item">
-                            <h3>About</h3>
-                        </a>
-                        <a href="#" class="button button--light">Take a tour</a>
-                    </nav>
-                </div>
+            <div class="container">
+                <input type="checkbox" class="click" />
+                <label for="click" class="menu-mobile">
+                    <img class="open-menu" src="assets/images/open-menu.svg" alt="Open Menu " />
+                    <img class="close-menu" src="assets/images/close-menu.svg" alt="Close Menu" />
+                </label>
+                <nav class="nav-menu">
+                    <h1>
+                        <a href="#" class="nav-brand">Hofmann</a>
+                    </h1>
+                    <a href="#" class="nav-menu__item">
+                        <h3>Mission</h3>
+                    </a>
+                    <a href="#" class="nav-menu__item">
+                        <h3>Services</h3>
+                    </a>
+                    <a href="#" class="nav-menu__item">
+                        <h3>About</h3>
+                    </a>
+                    <a href="#" class="button button--light">Take a tour</a>
+                </nav>
             </div>
         </header>
         <!--End header-->
@@ -43,21 +41,21 @@
         <main>
             <!--Start hero-->
             <section class="hero">
-                <div class="hero__page container">
+                <div class="hero-page container">
                     <h2>Choosing The Right Boutique Hotel For You</h2>
-                    <span class="hero__content text_normal"> How To Fly A Private Jet On Your Next Trip </span>
-                    <form action="#" class="hero__page form--submit" method="get">
-                        <input type="email" class="hero__page__input" placeholder="Your Email" />
+                    <p class="text text__hero"> How To Fly A Private Jet On Your Next Trip </p>
+                    <form action="#" class="form--submit" method="get">
+                        <input type="email" class="input input__hero" placeholder="Your Email" />
                         <button type="submit" class="button button--dark">Find now</button>
                     </form>
-                    <div class="hero__page__icon">
-                        <a href="#" class="hero__page__icon icon--circle">
+                    <div class="hero-page__icon">
+                        <a href="#" class="hero-page__icon icon--circle">
                             <img src="assets/images/plane-icon.svg" alt="Icon-plane" />
                         </a>
-                        <a href="#" class="hero__page__icon icon--circle">
+                        <a href="#" class="hero-page__icon icon--circle">
                             <img src="assets/images/wallet-icon.svg" alt="Icon-wallet" />
                         </a>
-                        <a href="#" class="hero__page__icon icon--circle">
+                        <a href="#" class="hero-page__icon icon--circle">
                             <img src="assets/images/case-icon.svg" alt="Icon-case" />
                         </a>
                     </div>
@@ -66,75 +64,77 @@
             <!--End hero-->
 
             <!--Start our_team-->
-            <section class="our-team container">
-                <h2 class="our-team__heading">Our Team</h2>
-                <ul class="our-team__list">
-                    <li class="our-team person-info">
-                        <a href="assets/images/person-ceo.jpg">
-                            <img src="assets/images/person-ceo.jpg" alt="Ceo" />
-                        </a>
-                        <div>
-                            <h3>Craig Todd</h3>
-                            <span>Ceo</span>
-                            <p class="text_normal">
-                                Like the majority of sales people, I visit a huge number of clients and prospects every
-                                month
-                            </p>
-                        </div>
-                    </li>
-                    <li class="our-team person-info">
-                        <a href="assets/images/person-uxlead.jpg">
-                            <img src="assets/images/person-uxlead.jpg" alt="UX-Lead" />
-                        </a>
-                        <div>
-                            <h3>Vera Hopkin</h3>
-                            <span>UX Lead</span>
-                            <p class="text_normal">
-                                Differentiate Yourself And Attract More Attention Sales And Profits
-                            </p>
-                        </div>
-                    </li>
-                    <li class="our-team person-info">
-                        <a href="assets/images/person-uidesign.jpg">
-                            <img src="assets/images/person-uidesign.jpg" alt="UX/UI-Designer" />
-                        </a>
-                        <div>
-                            <h3>Jennie Graham</h3>
-                            <span>UX/UI Designer</span>
-                            <p class="text_normal">WordPress Version 2 0 3 Review</p>
-                        </div>
-                    </li>
-                    <li class="our-team person-info">
-                        <a href="assets/images/person-marketing.jpg">
-                            <img src="assets/images/person-marketing.jpg" alt="Marketing" />
-                        </a>
-                        <div>
-                            <h3>Enuice Wong</h3>
-                            <span>Marketing consultant</span>
-                            <p class="text_normal">Advertising Internet Online Opportunities To Explore</p>
-                        </div>
-                    </li>
-                    <li class="our-team person-info">
-                        <a href="assets/images/person-fedev.jpg">
-                            <img src="assets/images/person-fedev.jpg" alt="FE-dev" />
-                        </a>
-                        <div>
-                            <h3>Chase Meyer</h3>
-                            <span>Front-end Developer</span>
-                            <p class="text_normal">Search Engine Optimization And Advertising</p>
-                        </div>
-                    </li>
-                    <li class="our-team person-info">
-                        <a href="assets/images/person-bedev.jpg">
-                            <img src="assets/images/person-bedev.jpg" alt="BE-dev" />
-                        </a>
-                        <div>
-                            <h3>Johnny Vargas</h3>
-                            <span>Back-end Developer</span>
-                            <p class="text_normal">Maintain Your PC S Performance With PC Programs</p>
-                        </div>
-                    </li>
-                </ul>
+            <section class="our-team">
+                <div class="container">
+                    <h2 class="our-team__heading">Our Team</h2>
+                    <ul class="our-team__list">
+                        <li class="person-info">
+                            <a href="assets/images/person-ceo.jpg">
+                                <img src="assets/images/person-ceo.jpg" alt="Ceo" />
+                            </a>
+                            <div>
+                                <h3>Craig Todd</h3>
+                                <p class="text">Ceo</p>
+                                <p class="text">
+                                    Like the majority of sales people, I visit a huge number of clients and prospects every
+                                    month
+                                </p>
+                            </div>
+                        </li>
+                        <li class="person-info">
+                            <a href="assets/images/person-uxlead.jpg">
+                                <img src="assets/images/person-uxlead.jpg" alt="UX-Lead" />
+                            </a>
+                            <div>
+                                <h3>Vera Hopkin</h3>
+                                <p class="text">UX Lead</p>
+                                <p class="text">
+                                    Differentiate Yourself And Attract More Attention Sales And Profits
+                                </p>
+                            </div>
+                        </li>
+                        <li class="person-info">
+                            <a href="assets/images/person-uidesign.jpg">
+                                <img src="assets/images/person-uidesign.jpg" alt="UX/UI-Designer" />
+                            </a>
+                            <div>
+                                <h3>Jennie Graham</h3>
+                                <p class="text">UX/UI Designer</p>
+                                <p class="text">WordPress Version 2 0 3 Review</p>
+                            </div>
+                        </li>
+                        <li class="person-info">
+                            <a href="assets/images/person-marketing.jpg">
+                                <img src="assets/images/person-marketing.jpg" alt="Marketing" />
+                            </a>
+                            <div>
+                                <h3>Enuice Wong</h3>
+                                <p class="text">Marketing consultant</p>
+                                <p class="text">Advertising Internet Online Opportunities To Explore</p>
+                            </div>
+                        </li>
+                        <li class="person-info">
+                            <a href="assets/images/person-fedev.jpg">
+                                <img src="assets/images/person-fedev.jpg" alt="FE-dev" />
+                            </a>
+                            <div>
+                                <h3>Chase Meyer</h3>
+                                <p class="text">Front-end Developer</p>
+                                <p class="text">Search Engine Optimization And Advertising</p>
+                            </div>
+                        </li>
+                        <li class="person-info">
+                            <a href="assets/images/person-bedev.jpg">
+                                <img src="assets/images/person-bedev.jpg" alt="BE-dev" />
+                            </a>
+                            <div>
+                                <h3>Johnny Vargas</h3>
+                                <p class="text">Back-end Developer</p>
+                                <p class="text">Maintain Your PC S Performance With PC Programs</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </section>
             <!--End our_team-->
 
@@ -144,40 +144,40 @@
                     <h2 class="services__heading">Choose Your Plan</h2>
                     <div class="services__card">
                         <div class="card card--silver">
-                            <h3 class="card__heading heading--primary">Silver</h3>
-                            <h4 class="services__heading__value">
-                                <span class="services__span__currency">&#36;</span>
+                            <h3 class="card__heading--primary">Silver</h3>
+                            <h4 class="card-value">
+                                <span class="card-value__currency">&#36;</span>
                                 49
                             </h4>
                             <h3 class="card__date">Year</h3>
-                            <p class="text_normal">Personal Account</p>
-                            <p class="text_normal">25 GB Discspace</p>
-                            <p class="text_normal">50 Uploads per day</p>
-                            <button type="submit" class="button button__card button--primary">Purchase</button>
+                            <p class="text">Personal Account</p>
+                            <p class="text">25 GB Discspace</p>
+                            <p class="text">50 Uploads per day</p>
+                            <button type="submit" class="button button--primary button__card">Purchase</button>
                         </div>
                         <div class="card card--gold">
-                            <h3 class="card__heading heading--secondary">Gold</h3>
-                            <h4 class="services__heading__value">
-                                <span class="services__span__currency heading--gold">&#36;</span>
+                            <h3 class="card__heading--secondary">Gold</h3>
+                            <h4 class="card-value">
+                                <span class="card-value__currency--secondary">&#36;</span>
                                 99
                             </h4>
                             <h3 class="card__date">Year</h3>
-                            <p class="text_normal">Personal Account</p>
-                            <p class="text_normal">50 GB Discspace</p>
-                            <p class="text_normal">500 Uploads per day</p>
-                            <button type="submit" class="button button__card button--secondary">Purchase</button>
+                            <p class="text">Personal Account</p>
+                            <p class="text">50 GB Discspace</p>
+                            <p class="text">500 Uploads per day</p>
+                            <button type="submit" class="button button--secondary button__card">Purchase</button>
                         </div>
                         <div class="card card--platinum">
-                            <h3 class="card__heading heading--primary">Platinum</h3>
-                            <h4 class="services__heading__value">
-                                <span class="services__span__currency">&#36;</span>
+                            <h3 class="card__heading--primary">Platinum</h3>
+                            <h4 class="card-value">
+                                <span class="card-value__currency">&#36;</span>
                                 299
                             </h4>
                             <h3 class="card__date">Year</h3>
-                            <p class="text_normal">Personal Account</p>
-                            <p class="text_normal">500 GB Discspace</p>
-                            <p class="text_normal">Unlimited Uploads per day</p>
-                            <button type="submit" class="button button__card button--primary">Purchase</button>
+                            <p class="text">Personal Account</p>
+                            <p class="text">500 GB Discspace</p>
+                            <p class="text">Unlimited Uploads per day</p>
+                            <button type="submit" class="button button--primary button__card">Purchase</button>
                         </div>
                     </div>
                 </div>
@@ -187,13 +187,13 @@
             <!--Start places-->
             <section class="places container">
                 <h2 class="places__heading">Places</h2>
-                <div class="places__list">
-                    <h3 class="places__name">San Francisco</h3>
-                    <h3 class="places__name">South Liliana</h3>
-                    <h3 class="places__name">Blickview</h3>
-                    <h3 class="places__name">New Raven</h3>
+                <div class="places-list">
+                    <h3 class="places-list__name">San Francisco</h3>
+                    <h3 class="places-list__name">South Liliana</h3>
+                    <h3 class="places-list__name">Blickview</h3>
+                    <h3 class="places-list__name">New Raven</h3>
                 </div>
-                <select id="places">
+                <select class="places-select">
                     <option value="San Francisco" selected>San Francisco</option>
                     <option value="South Liliana">South Liliana</option>
                     <option value="Blickview">Blickview</option>
@@ -223,92 +223,92 @@
             <!--End places-->
 
             <!--Start account-->
-            <section class="account container">
-                <h2 class="account__heading">Create An Account</h2>
-                <form action="#" class="card card--silver account__signup__card" method="post">
-                    <h3 class="card__heading signup__heading">Sign up</h3>
-                    <input type="email" class="input-tag account__input" placeholder="Email" />
-                    <input type="password" class="input-tag account__input" placeholder="Password" />
-                    <input type="password" class="input-tag account__input" placeholder="Confirm Password" />
-                    <a href="#" class="account--exist text_normal">Already Have an account?</a>
-                    <button type="submit" class="button button--primary signup__button">Sign up</button>
-                </form>
+            <section>
+                <div class="account container">
+                    <h2 class="account__heading">Create An Account</h2>
+                    <form action="#" class="card card--silver account-signup" method="post">
+                        <h3 class="card__heading--primary account-signup__heading">Sign up</h3>
+                        <input type="email" class="input input-tag account-signup__input" placeholder="Email" />
+                        <input type="password" class="input input-tag account-signup__input" placeholder="Password" />
+                        <input type="password" class="input input-tag account-signup__input" placeholder="Confirm Password" />
+                        <a href="#" class="text account-signup--exist">Already Have an account?</a>
+                        <button type="submit" class="button button--primary button-signup">Sign up</button>
+                    </form>
+                </div>
             </section>
             <!--End account-->
 
             <!-- Start contact-->
-            <section class="contact container">
-                <h2 class="contact__heading">Contact Us</h2>
-                <div class="contact__information">
-                    <div class="contact__information__description">
-                        <div id="get-in-touch">
+            <section>
+                <div class="contact container">
+                    <h2 class="contact__heading">Contact Us</h2>
+                    <div class="contact-description">
+                        <address class="contact-address">
                             <h3>Get In Touch</h3>
-                            <div class="information__location">
+                            <div class="contact-address__information">
                                 <img src="assets/images/location.svg" alt="Location" />
-                                <p class="text_normal">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
+                                <p class="text text-addresse">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
                                 <img src="assets/images/mail.svg" alt="Mail" />
-                                <a href="mailto:contact@hofmannui.net" class="text_normal text__email">contact@hofmannui.net</a>
+                                <a href="mailto:contact@hofmannui.net" class="text text-email">contact@hofmannui.net</a>
                                 <img src="assets/images/phone.svg" alt="Phone" />
-                                <div id="phone-number">
-                                    <a href="tel:+235793-891-7938" class="text_normal text__number">
+                                <div class="phone-number">
+                                    <a href="tel:+2357938917938" class="text text-number">
                                         793-891-7938
                                     </a>
                                     <span>,</span>
-                                    <a href="tel:+235512-915-5628" class="text_normal text__number">
+                                    <a href="tel:+2355129155628" class="text text-number">
                                         512-915-5628
                                     </a>
                                     <span>,</span>
-                                    <a href="tel:+235952-775-6021" class="text_normal text__number">952-775-6021</a>
+                                    <a href="tel:+2359527756021" class="text text-number">952-775-6021</a>
                                 </div>
                             </div>
-                        </div>
-                        <form action="#" class="form__email" method="post">
-                            <div class="form__card">
-                                <div class="form__name__email">
-                                    <label for="name" class="contact__label">Name:</label>
-                                    <label for="email" class="contact__label">Email:</label>
-                                    <input
-                                        type="text"
-                                        class="input-tag contact__input"
-                                        placeholder="Letha Terry"
-                                    />
-                                    <input
-                                        type="email"
-                                        class="input-tag contact__input"
-                                        placeholder="letha.terry@ya"
-                                    />
-                                </div>
-                                <div class="form__message">
-                                    <label for="message" class="contact__label">Message:</label>
-                                    <textarea name="message"></textarea>
-                                </div>
-                                <button type="submit" class="button button--primary contact__button">Submit</button>
+                        </address>
+                        <form action="#" class="contact-form" method="post">
+                            <div class="form-information">
+                                <label for="name" class="text form-information__label">Name:</label>
+                                <label for="email" class="text form-information__label">Email:</label>
+                                <input
+                                    type="text"
+                                    class="input input-tag form-information__input"
+                                    placeholder="Letha Terry"
+                                />
+                                <input
+                                    type="email"
+                                    class="input input-tag form-information__input"
+                                    placeholder="letha.terry@ya"
+                                />
                             </div>
+                            <div class="form-message">
+                                <label for="message" class="text form-information__label">Message:</label>
+                                <textarea name="message"></textarea>
+                            </div>
+                            <button type="submit" class="button button--primary contact-form__button">Submit</button>
                         </form>
-                        <div class="contact__credits">
+                        <div class="contact-credits">
                             <h3>Credits</h3>
-                            <p class="text_normal credits__text">
+                            <p class="text contact-credits__text">
                                 In order to discuss the general function of the logo, we must firstly identify and
                                 define the environment where this will have to fulfill its function.
                             </p>
                             <h3>Follow</h3>
-                            <div class="social-icon">
-                                <a href="#" class="social__link">
+                            <div class="social">
+                                <a href="#" class="social-icon">
                                     <img src="assets/images/pinterest-icon.svg" alt="Pinterest" />
                                 </a>
-                                <a href="#" class="social__link">
+                                <a href="#" class="social-icon">
                                     <img src="assets/images/linkedin-icon.svg" alt="Linkedin" />
                                 </a>
-                                <a href="#" class="social__link">
+                                <a href="#" class="social-icon">
                                     <img src="assets/images/google-plus-icon.svg" alt="Google plus" />
                                 </a>
-                                <a href="#" class="social__link">
+                                <a href="#" class="social-icon">
                                     <img src="assets/images/twitter-icon.svg" alt="Twitter" />
                                 </a>
-                                <a href="#" class="social__link">
+                                <a href="#" class="social-icon">
                                     <img src="assets/images/facebook-icon.svg" alt="Facebook" />
                                 </a>
-                                <a href="#" class="social__link">
+                                <a href="#" class="social-icon">
                                     <img src="assets/images/instagram-icon.svg" alt="Instagram" />
                                 </a>
                             </div>
@@ -323,50 +323,48 @@
         <!--Start footer-->
         <footer>
             <div class="footer container">
-                <div class="footer__contact__information">
-                    <div class="footer__contact">
-                        <h3 class="footer__heading">Contact us</h3>
-                        <div class="footer__text">
-                            <p class="text_normal text__address">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
-                            <a href="tel:+235793-891-7938" class="text_normal text__number">+235 793-891-7938</a>
-                            <a href="mailto:contact@hofmannui.net" class="text_normal text__email">contact@hofmannui.net</a>
-                        </div>
+                <div class="footer-contact">
+                    <div class="footer-contact__information">
+                        <h3>Contact us</h3>
+                        <address class="footer-address">
+                            <p class="text text-footer footer-address__text">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
+                            <a href="tel:+2357938917938" class="text text-number text-footer">+235 793-891-7938</a>
+                            <a href="mailto:contact@hofmannui.net" class="text text-email text-footer">contact@hofmannui.net</a>
+                        </address>
                     </div>
-                    <div class="footer__follow">
+                    <div class="footer-follow">
                         <h3 class="footer__heading">Follow us</h3>
-                        <div class="social-icon">
-                            <a href="#" class="social__link">
+                        <div class="social">
+                            <a href="#" class="social-icon">
                                 <img src="assets/images/pinterest-icon-light.svg" alt="Pinterest" />
                             </a>
-                            <a href="#" class="social__link">
+                            <a href="#" class="social-icon">
                                 <img src="assets/images/twitter-icon-light.svg" alt="Twitter" />
                             </a>
-                            <a href="#" class="social__link">
+                            <a href="#" class="social-icon">
                                 <img src="assets/images/facebook-icon-light.svg" alt="Facebook" />
                             </a>
                         </div>
                     </div>
-                    <div class="footer__about">
-                        <h3 class="footer__heading">About us</h3>
-                        <p class="text_normal">
+                    <div class="footer-about">
+                        <h3 class="footer-about__heading">About us</h3>
+                        <p class="text text-footer">
                             Hoffman UI Kit was made to help you quickly create beautiful layouts of responsive websites.
                         </p>
                     </div>
                 </div>
                 <hr />
-                <div class="footer__description">
-                    <div class="footer__copyright">
-                        <p class="text_normal">&#169; 2016 Hofmann UI Kit</p>
-                    </div>
-                    <nav class="footer__nav">
-                        <a href="#" class="text_normal"> Home </a>
-                        <a href="#" class="text_normal"> Services </a>
-                        <a href="#" class="text_normal"> Team </a>
-                        <a href="#" class="text_normal"> Portfolio </a>
-                        <a href="#" class="text_normal"> Contact </a>
+                <div class="footer-copyright">
+                    <p class="text footer-copyright__text">&#169; 2016 Hofmann UI Kit</p>
+                    <nav class="footer-menu">
+                        <a href="#" class="footer-menu__nav"> Home </a>
+                        <a href="#" class="footer-menu__nav"> Services </a>
+                        <a href="#" class="footer-menu__nav"> Team </a>
+                        <a href="#" class="footer-menu__nav"> Portfolio </a>
+                        <a href="#" class="footer-menu__nav"> Contact </a>
                     </nav>
                     <div class="go-top__button">
-                        <span class="text_normal">To the Top</span>
+                        <span class="text">To the Top</span>
                         <a href="#">
                             <img src="assets/images/go-top-button.svg" alt="Go top button" />
                         </a>

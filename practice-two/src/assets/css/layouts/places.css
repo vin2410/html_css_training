@@ -10,7 +10,7 @@
     margin: 37px auto 18px auto;
 }
 
-.places__list {
+.places-list {
     display: none;
 }
 
@@ -21,7 +21,7 @@
     margin-bottom: 40px;
 }
 
-.places__name:hover {
+.places-list__name:hover {
     color: var(--color-primary);
     text-decoration: underline;
     cursor: pointer;
@@ -42,7 +42,7 @@
     height: 100%;
 }
 
-#places {
+.places-select {
     display: block;
     width: 144px;
     height: 24px;
@@ -55,7 +55,7 @@
     appearance: none;
 }
 /* For IE10 */
-#places::-ms-expand {
+.places-select::-ms-expand {
     display: none;
 }
 
@@ -71,7 +71,7 @@
         column-gap: 50px;
         margin-bottom: 20px;
     }
-    #places {
+    .places-select {
         display: none;
     }
     .places__img {
