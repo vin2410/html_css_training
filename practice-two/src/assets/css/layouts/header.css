@@ -36,7 +36,7 @@ header {
 }
 
 .nav-menu .button--light:hover {
-    background: none;
+    border: none;
     color: var(--color-primary);
 }
 
@@ -60,15 +60,15 @@ header {
     color: var(--color-primary);
 }
 
-.click:checked ~ .nav-menu a {
+#click:checked ~ .nav-menu a{
     display: block;
 }
 
-.click:checked ~ .menu-mobile .close-menu {
+#click:checked ~ .menu-mobile .close-menu {
     display: block;
 }
 
-.click:checked ~ .menu-mobile .open-menu {
+#click:checked ~ .menu-mobile .open-menu {
     display: none;
 }
 

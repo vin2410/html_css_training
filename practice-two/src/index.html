@@ -13,7 +13,7 @@
         <!--Start header-->
         <header>
             <div class="container">
-                <input type="checkbox" class="click" />
+                <input type="checkbox" id="click" />
                 <label for="click" class="menu-mobile">
                     <img class="open-menu" src="assets/images/open-menu.svg" alt="Open Menu " />
                     <img class="close-menu" src="assets/images/close-menu.svg" alt="Close Menu" />
@@ -43,7 +43,7 @@
             <section class="hero">
                 <div class="hero-page container">
                     <h2>Choosing The Right Boutique Hotel For You</h2>
-                    <p class="text text__hero"> How To Fly A Private Jet On Your Next Trip </p>
+                    <p class="text text-hero"> How To Fly A Private Jet On Your Next Trip </p>
                     <form action="#" class="form--submit" method="get">
                         <input type="email" class="input input__hero" placeholder="Your Email" />
                         <button type="submit" class="button button--dark">Find now</button>
@@ -193,10 +193,10 @@
                     <h3 class="places-list__name">Blickview</h3>
                     <h3 class="places-list__name">New Raven</h3>
                 </div>
-                <select class="places-select">
+                <select class="places__select">
                     <option value="San Francisco" selected>San Francisco</option>
                     <option value="South Liliana">South Liliana</option>
-                    <option value="Blickview">Blickview</option>
+                    <option value="Blickview">Blickview</option> 
                     <option value="New Raven">New Raven</option>
                 </select>
                 <div class="places__img">
@@ -243,9 +243,9 @@
                 <div class="contact container">
                     <h2 class="contact__heading">Contact Us</h2>
                     <div class="contact-description">
-                        <address class="contact-address">
+                        <address class="contact-description-address">
                             <h3>Get In Touch</h3>
-                            <div class="contact-address__information">
+                            <div class="contact-description-address__information">
                                 <img src="assets/images/location.svg" alt="Location" />
                                 <p class="text text-addresse">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
                                 <img src="assets/images/mail.svg" alt="Mail" />
@@ -264,30 +264,30 @@
                                 </div>
                             </div>
                         </address>
-                        <form action="#" class="contact-form" method="post">
-                            <div class="form-information">
-                                <label for="name" class="text form-information__label">Name:</label>
-                                <label for="email" class="text form-information__label">Email:</label>
+                        <form action="#" class="contact-description-form" method="post">
+                            <div class="contact-description-form-information">
+                                <label for="name" class="text contact-form-information__label">Name:</label>
+                                <label for="email" class="text contact-form-information__label">Email:</label>
                                 <input
                                     type="text"
-                                    class="input input-tag form-information__input"
+                                    class="input input-tag contact-description-form-information__input"
                                     placeholder="Letha Terry"
                                 />
                                 <input
                                     type="email"
-                                    class="input input-tag form-information__input"
+                                    class="input input-tag contact-description-form-information__input"
                                     placeholder="letha.terry@ya"
                                 />
                             </div>
-                            <div class="form-message">
-                                <label for="message" class="text form-information__label">Message:</label>
+                            <div class="contact-description-form-message">
+                                <label for="message" class="text contact-form-information__label">Message:</label>
                                 <textarea name="message"></textarea>
                             </div>
-                            <button type="submit" class="button button--primary contact-form__button">Submit</button>
+                            <button type="submit" class="button button--primary contact-description-form__button">Submit</button>
                         </form>
-                        <div class="contact-credits">
+                        <div class="contact-description-credits">
                             <h3>Credits</h3>
-                            <p class="text contact-credits__text">
+                            <p class="text contact-description-credits__text">
                                 In order to discuss the general function of the logo, we must firstly identify and
                                 define the environment where this will have to fulfill its function.
                             </p>
@@ -324,16 +324,16 @@
         <footer>
             <div class="footer container">
                 <div class="footer-contact">
-                    <div class="footer-contact__information">
+                    <div class="footer-contact-information">
                         <h3>Contact us</h3>
-                        <address class="footer-address">
-                            <p class="text text-footer footer-address__text">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
+                        <address class="footer-contact-information-address">
+                            <p class="text text-footer footer-contact-information-address__text">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
                             <a href="tel:+2357938917938" class="text text-number text-footer">+235 793-891-7938</a>
                             <a href="mailto:contact@hofmannui.net" class="text text-email text-footer">contact@hofmannui.net</a>
                         </address>
                     </div>
-                    <div class="footer-follow">
-                        <h3 class="footer__heading">Follow us</h3>
+                    <div class="footer-contact__follow">
+                        <h3>Follow us</h3>
                         <div class="social">
                             <a href="#" class="social-icon">
                                 <img src="assets/images/pinterest-icon-light.svg" alt="Pinterest" />
@@ -346,8 +346,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="footer-about">
-                        <h3 class="footer-about__heading">About us</h3>
+                    <div class="footer-contact__about">
+                        <h3>About us</h3>
                         <p class="text text-footer">
                             Hoffman UI Kit was made to help you quickly create beautiful layouts of responsive websites.
                         </p>
@@ -355,13 +355,13 @@
                 </div>
                 <hr />
                 <div class="footer-copyright">
-                    <p class="text footer-copyright__text">&#169; 2016 Hofmann UI Kit</p>
-                    <nav class="footer-menu">
-                        <a href="#" class="footer-menu__nav"> Home </a>
-                        <a href="#" class="footer-menu__nav"> Services </a>
-                        <a href="#" class="footer-menu__nav"> Team </a>
-                        <a href="#" class="footer-menu__nav"> Portfolio </a>
-                        <a href="#" class="footer-menu__nav"> Contact </a>
+                    <p class="text text-footer footer-copyright__text">&#169; 2016 Hofmann UI Kit</p>
+                    <nav class="footer-copyright__nav">
+                        <a href="#" class="footer-copyright__nav-item"> Home </a>
+                        <a href="#" class="footer-copyright__nav-item"> Services </a>
+                        <a href="#" class="footer-copyright__nav-item"> Team </a>
+                        <a href="#" class="footer-copyright__nav-item"> Portfolio </a>
+                        <a href="#" class="footer-copyright__nav-item"> Contact </a>
                     </nav>
                     <div class="go-top__button">
                         <span class="text">To the Top</span>

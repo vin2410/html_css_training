@@ -9,8 +9,8 @@
 .text-number,
 .text-email,
 .text-addresse {
-    text-decoration: none;
     color: var(--color-secondary);
+    text-decoration: none;
 }
 
 h2 {

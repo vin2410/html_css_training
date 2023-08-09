@@ -42,7 +42,7 @@
     height: 100%;
 }
 
-.places-select {
+.places__select {
     display: block;
     width: 144px;
     height: 24px;
@@ -55,7 +55,7 @@
     appearance: none;
 }
 /* For IE10 */
-.places-select::-ms-expand {
+.places__select::-ms-expand {
     display: none;
 }
 
@@ -64,14 +64,14 @@
     .places__heading {
         margin: 41px auto 11px auto;
     }
-    .places__list {
+    .places-list {
         display: flex;
         flex-direction: row;
         text-transform: uppercase;
         column-gap: 50px;
         margin-bottom: 20px;
     }
-    .places-select {
+    .places__select {
         display: none;
     }
     .places__img {
@@ -90,7 +90,7 @@
     .places__heading {
         margin: 67px auto 20px auto;
     }
-    .places__list {
+    .places-list {
         column-gap: 40px;
         margin-bottom: 29px;
     }
