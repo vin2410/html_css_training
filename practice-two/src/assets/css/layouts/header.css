@@ -44,7 +44,7 @@ header {
     display: block;
 }
 
-.nav-menu .nav-brand{
+.nav-menu .nav-brand {
     color: var(--color-primary);
     font-size: var(--fs-normal);
     font-weight: var(--fw-primary);
@@ -60,7 +60,7 @@ header {
     color: var(--color-primary);
 }
 
-#click:checked ~ .nav-menu a{
+#click:checked ~ .nav-menu a {
     display: block;
 }
 
@@ -96,6 +96,7 @@ input[type='checkbox'] {
         justify-content: baseline;
         column-gap: 30px;
     }
+    
     .nav-menu .button--light:hover {
         color: var(--color-text-primary);
         background-color: var(--color-tertiary);
@@ -104,7 +105,7 @@ input[type='checkbox'] {
 
 /* Desktop */
 @media (min-width: 1200px) {
-    .nav-menu .nav-brand{
+    .nav-menu .nav-brand {
         font-size: var(--fs-x-large);
         line-height: var(--lh-huge);
         letter-spacing: 2px;

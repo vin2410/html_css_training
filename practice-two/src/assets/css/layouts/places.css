@@ -54,6 +54,7 @@
     /* Hide arrow default  */
     appearance: none;
 }
+
 /* For IE10 */
 .places__select::-ms-expand {
     display: none;
@@ -71,14 +72,17 @@
         column-gap: 50px;
         margin-bottom: 20px;
     }
+
     .places__select {
         display: none;
     }
+
     .places__img {
         grid-template-columns: repeat(3, 1fr);
         gap: 8px 10px;
         margin-bottom: 48px;
     }
+
     .places__img a {
         width: 192px;
         height: 192px;
@@ -90,14 +94,17 @@
     .places__heading {
         margin: 67px auto 20px auto;
     }
+
     .places-list {
         column-gap: 40px;
         margin-bottom: 29px;
     }
+
     .places__img {
         gap: 12px 24px;
         margin-bottom: 85px;
     }
+    
     .places__img a {
         width: 300px;
         height: 300px;
