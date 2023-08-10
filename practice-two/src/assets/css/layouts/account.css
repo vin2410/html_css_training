@@ -1,0 +1,107 @@
+/* Mobile */
+.account {
+    width: 100%;
+    background: url(../../images/background-account.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account__heading {
+    color: var(--color-text-primary);
+    margin: 44px auto 20px auto;
+}
+
+.account-signup__heading {
+    text-transform: uppercase;
+    margin: 28px auto 29px auto;
+}
+
+.account-signup__input {
+    height: 32px;
+    width: 221px;
+    margin: 0 21px 15px 21px;
+    text-indent: var(--fs-x-tiny);
+}
+.account-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.account-signup__input::placeholder {
+    color: var(--color-secondary);
+}
+
+.account-signup--exist {
+    color: var(--color-primary);
+    margin: 0 auto 15px auto;
+}
+
+.button-signup {
+    color: var(--color-secondary);
+    margin-bottom: 36px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .account__heading {
+        margin: 40px auto 26px auto;
+    }
+
+    .account__signup__card {
+        margin-bottom: 41px;
+    }
+
+    .signup__heading {
+        margin: 35px auto 16px auto;
+    }
+
+    .account-signup__input {
+        width: 221px;
+        margin: 0 29px 11px 29px;
+        text-indent: var(--fs-x-tiny);
+    }
+    .account-signup__input::placeholder {
+        font-size: var(--fs-x-tiny);
+    }
+    .account-signup--exist {
+        margin: 11px auto 22px auto;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    .account-signup__heading {
+        margin: 72px auto 36px auto;
+    }
+
+    .signup__heading {
+        margin: 28px auto 29px auto;
+    }
+    .button-signup {
+        margin-bottom: 24px;
+        padding: 15px 60px;
+    }
+
+    .account-signup__card {
+        margin-bottom: 48px;
+    }
+
+    .account-signup__input {
+        width: 256px;
+        height: 36px;
+        margin: 0 52px 25px 52px;
+        text-indent: var(--fs-small);
+    }
+
+    .account-signup__input::placeholder {
+        font-size: var(--fs-x-small);
+    }
+
+    .account-signup--exist {
+        margin: 2px auto 19px auto;
+    }
+}

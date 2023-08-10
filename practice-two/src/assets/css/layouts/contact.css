@@ -1,0 +1,223 @@
+/* Mobile */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-secondary);
+}
+
+.contact__heading {
+    margin: 45px auto 30px auto;
+}
+
+.contact-description-address:nth-child(1) {
+    grid-area: grid1;
+}
+
+.contact-description-form:nth-child(2) {
+    grid-area: grid2;
+}
+
+.contact-description-credits:nth-child(3) {
+    grid-area: grid3;
+}
+
+.contact-description {
+    display: grid;
+    grid-template-columns: 260px;
+    grid-template-areas:
+        'grid2'
+        'grid1'
+        'grid3';
+    margin-bottom: 31px;
+    justify-content: center;
+}
+
+.contact-description-address {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-description-address {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.contact-description-address__information {
+    display: grid;
+    grid-template-columns: 11px 233px;
+    gap: 16px 17px;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.contact-description-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    align-items: center;
+}
+
+.contact-description-form-information {
+    display: grid;
+    grid-template-columns: 109px 109px;
+    gap: 6px 6px;
+}
+
+.contact-description-form-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-description-form__button {
+    margin: 17px auto 43px auto;
+}
+
+.contact-description-form-message textarea {
+    border: 0.5px var(--color-solid-secondary) solid;
+    width: 224px;
+    height: 64px;
+    resize: none;
+}
+
+.contact-description-form-information__input {
+    width: 108px;
+    height: 24px;
+    margin-bottom: 14px;
+}
+
+.phone-number {
+    width: 150px;
+}
+
+.contact-description-form-information__label {
+    font-size: var(--fs-x-tiny);
+}
+
+.contact-description-credits {
+    width: 100%;
+}
+
+.contact-description-credits__text {
+    margin-bottom: 11px;
+    margin-top: 13px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(6, 20px);
+    column-gap: 20px;
+    margin-top: 9px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .contact-description {
+        grid-template-columns: auto 162px 220px;
+        grid-template-areas: 'grid2 grid1 grid3';
+        column-gap: 31px;
+        margin-bottom: 86px;
+    }
+
+    .contact-description-form-information__input {
+        margin-bottom: 14px;
+    }
+
+    .phone-number span {
+        display: none;
+    }
+
+    .phone-number {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-description-address__information {
+        grid-template-columns: 11px 124px;
+    }
+
+    .contact-description-form {
+        margin-right: 31px;
+    }
+
+    .contact-description-form__button {
+        padding: 8px 30px;
+    }
+
+    .social {
+        width: 152px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 30px;
+    }
+
+    .social-icon img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    .contact-description {
+        grid-template-columns: 263px auto 263px;
+        grid-template-areas: 'grid1 grid2 grid3';
+        column-gap: 40px;
+        margin-top: 65px;
+        margin-bottom: 81px;
+    }
+
+    .contact__heading {
+        margin-top: 92px;
+        margin-bottom: 0;
+    }
+
+    .contact-description-address__information {
+        grid-template-columns: auto 234px;
+        gap: 23px 13px;
+        margin-top: 23px;
+    }
+
+    .contact-description-form {
+        background: var(--color-text-primary);
+        border: 1px var(--color-solid-primary) solid;
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+        margin: 0 47px auto 60px;
+    }
+
+    .contact-description-form-information {
+        grid-template-columns: 204px 204px;
+        gap: 17px 12px;
+        margin: 39px 56px 0 60px;
+    }
+
+    .contact-description-form-message {
+        row-gap: 17px;
+    }
+
+    .contact-description-form-message textarea {
+        width: 420px;
+        height: 120px;
+        resize: none;
+    }
+
+    .contact-description-form-information__label {
+        font-size: var(--fs-medium);
+    }
+
+    .contact-description-form-information__input {
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 9px 0 9px 0;
+    }
+
+    .contact-description-form__button {
+        margin-top: 24px;
+        padding: 15px 70px;
+    }
+
+    .contact-description-credits__text {
+        margin-bottom: 50px;
+    }
+}

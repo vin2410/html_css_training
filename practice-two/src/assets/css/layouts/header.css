@@ -1,0 +1,122 @@
+/* Mobile */
+header {
+    background: var(--color-secondary);
+    text-transform: uppercase;
+}
+
+.menu-mobile {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    margin: 10px 16px 22px 0;
+    transform: translateY(50%);
+}
+
+.menu-mobile img {
+    width: 16px;
+    height: 14px;
+}
+
+.close-menu {
+    display: none;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.nav-menu a {
+    color: var(--color-text-primary);
+    text-decoration: none;
+    display: none;
+}
+
+.nav-menu .button--light:hover {
+    border: none;
+    color: var(--color-primary);
+}
+
+.nav-menu :first-child {
+    display: block;
+}
+
+.nav-menu .nav-brand {
+    color: var(--color-primary);
+    font-size: var(--fs-normal);
+    font-weight: var(--fw-primary);
+    text-decoration: none;
+    letter-spacing: 2.487px;
+}
+
+.nav-menu h1 {
+    margin: 13px auto 14px 20px;
+}
+
+.menu-item:hover {
+    color: var(--color-primary);
+}
+
+#click:checked ~ .nav-menu a {
+    display: block;
+}
+
+#click:checked ~ .menu-mobile .close-menu {
+    display: block;
+}
+
+#click:checked ~ .menu-mobile .open-menu {
+    display: none;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .menu-mobile {
+        display: none;
+    }
+
+    .nav-menu a {
+        display: block;
+    }
+
+    .nav-menu h1 {
+        margin: 37px auto 38px 0;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        column-gap: 30px;
+    }
+    
+    .nav-menu .button--light:hover {
+        color: var(--color-text-primary);
+        background-color: var(--color-tertiary);
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    .nav-menu .nav-brand {
+        font-size: var(--fs-x-large);
+        line-height: var(--lh-huge);
+        letter-spacing: 2px;
+    }
+
+    .nav-menu h1 {
+        margin: 45px auto 68px 0;
+    }
+
+    .nav-menu {
+        justify-content: baseline;
+        column-gap: 44px;
+    }
+}

@@ -1,0 +1,38 @@
+:root {
+    --ff-primary: 'Roboto';
+    --ff-secondary: 'Lucida Grande';
+
+    --f-style: normal;
+
+    --fs-huge: 64px;
+    --fs-xx-large: 44px;
+    --fs-x-large: 36px;
+    --fs-large: 32px;
+    --fs-normal: 24px;
+    --fs-medium-well: 20px;
+    --fs-medium: 18px;
+    --fs-small: 16px;
+    --fs-x-small: 14px;
+    --fs-tiny: 12px;
+    --fs-x-tiny: 11px;
+
+    --lh-huge: 48px;
+    --lh-x-large: 36px;
+    --lh-large: 27px;
+    --lh-medium: 26px;
+    --lh-small: 24px;
+    --lh-x-small: 16px;
+
+    --fw-primary: 400px;
+    --fw-secondary: 700px;
+
+    --color-primary: #ebcb80;
+    --color-secondary: #4b4b4b;
+    --color-tertiary: #7d7d7d;
+
+    --color-solid-primary: #e6e6e6;
+    --color-solid-secondary: #999999;
+
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #3c3c3c;
+}

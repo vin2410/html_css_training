@@ -1,0 +1,118 @@
+/* Mobile */
+.services {
+    background-color: var(--color-secondary);
+    color: var(--color-text-primary);
+}
+
+.services .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__heading {
+    color: var(--color-text-primary);
+    justify-content: center;
+    margin: 52px auto 20px auto;
+}
+
+.services__card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.card__heading--primary {
+    font-weight: var(--fw-secondary);
+    color: var(--color-primary);
+    text-transform: uppercase;
+    margin: 28px auto 4px auto;
+    font-family: var(--ff-secondary);
+}
+
+.card__heading--secondary {
+    color: var(--color-secondary);
+    margin: 28px auto 4px auto;
+}
+
+.card-value {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: var(--fs-x-large);
+}
+
+.card-value__currency,
+.card-value__currency--secondary {
+    font-size: var(--fs-x-tiny);
+}
+
+.card__date {
+    text-transform: uppercase;
+}
+
+.button__card {
+    margin: 20px 40px 28px 40px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .services__heading {
+        color: var(--color-text-primary);
+        margin: 56px auto 32px auto;
+    }
+
+    .services__card {
+        flex-direction: row;
+        margin-bottom: 80px;
+    }
+
+    .card__heading {
+        margin: 36px auto 12px auto;
+        letter-spacing: 0.6px;
+    }
+
+    .card__date {
+        margin: 0 0 7px;
+    }
+
+    .button__card {
+        margin: 16px 40px 32px 40px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    .services__heading {
+        font-size: var(--fs-xx-large);
+        margin: 68px auto 52px auto;
+    }
+
+    .services__card {
+        margin-bottom: 116px;
+    }
+
+    .card-value__currency,
+    .card-value__currency--secondary {
+        font-size: var(--fs-normal);
+    }
+
+    .card-value {
+        font-size: var(--fs-huge);
+    }
+
+    .card__heading {
+        letter-spacing: 1px;
+        margin: 40px auto 30px auto;
+    }
+
+    .card__date {
+        margin: 15px auto 23px auto;
+    }
+
+    .button__card {
+        margin: 45px 79px 50px 83px;
+    }
+}
