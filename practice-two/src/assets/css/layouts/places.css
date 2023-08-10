@@ -10,7 +10,7 @@
     margin: 37px auto 18px auto;
 }
 
-.places__list {
+.places-list {
     display: none;
 }
 
@@ -21,7 +21,7 @@
     margin-bottom: 40px;
 }
 
-.places__name:hover {
+.places-list__name:hover {
     color: var(--color-primary);
     text-decoration: underline;
     cursor: pointer;
@@ -42,7 +42,7 @@
     height: 100%;
 }
 
-#places {
+.places__select {
     display: block;
     width: 144px;
     height: 24px;
@@ -54,8 +54,9 @@
     /* Hide arrow default  */
     appearance: none;
 }
+
 /* For IE10 */
-#places::-ms-expand {
+.places__select::-ms-expand {
     display: none;
 }
 
@@ -64,21 +65,24 @@
     .places__heading {
         margin: 41px auto 11px auto;
     }
-    .places__list {
+    .places-list {
         display: flex;
         flex-direction: row;
         text-transform: uppercase;
         column-gap: 50px;
         margin-bottom: 20px;
     }
-    #places {
+
+    .places__select {
         display: none;
     }
+
     .places__img {
         grid-template-columns: repeat(3, 1fr);
         gap: 8px 10px;
         margin-bottom: 48px;
     }
+
     .places__img a {
         width: 192px;
         height: 192px;
@@ -90,14 +94,17 @@
     .places__heading {
         margin: 67px auto 20px auto;
     }
-    .places__list {
+
+    .places-list {
         column-gap: 40px;
         margin-bottom: 29px;
     }
+
     .places__img {
         gap: 12px 24px;
         margin-bottom: 85px;
     }
+    
     .places__img a {
         width: 300px;
         height: 300px;

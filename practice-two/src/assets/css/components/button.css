@@ -33,15 +33,6 @@
     border: 0;
 }
 
-.social-icon {
-    column-gap: 20px;
-}
-
-.social__link img {
-    width: 20px;
-    height: 20px;
-}
-
 .button:hover {
     color: var(--color-text-primary);
     background-color: var(--color-tertiary);
@@ -57,11 +48,6 @@
     }
     .button--dark {
         padding: 13px 41px;
-    }
-
-    .social__link img {
-        width: 30px;
-        height: 30px;
     }
 }
 

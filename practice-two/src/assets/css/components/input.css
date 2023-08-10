@@ -1,0 +1,13 @@
+/* Mobile and Tablet */
+.input {
+    border: 0.5px var(--color-solid-secondary) solid;
+    border-radius: 4px;
+    text-indent: var(--fs-x-tiny);
+}
+
+/* Desktop */
+@media (min-width: 1200px){
+    .input {
+        text-indent: var(--fs-small);
+    }
+}
